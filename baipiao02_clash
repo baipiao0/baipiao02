@@ -5,30 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇭🇰 香港(中国)+🚀[极速稳定]", server: 122.9.54.131, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 33bdcd5a83fdd0c0fb3a5083868b05fe5b3f4f80a142889bb764e88882837048}
-  - {name: "🇭🇰 香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e}
-  - {name: "🇸🇬 [Vip1][V2ray]㉑ 电信中转新加坡", server: 23.paopaoyun.xyz, port: 19123, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑩ BGB中转日本", server: 12.paopaoyun.xyz, port: 19112, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡", server: 13.paopaoyun.xyz, port: 19113, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me", server: 3.paopaoyun.xyz, port: 19103, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑰ 江门中转日本", server: 19.paopaoyun.xyz, port: 19119, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡", server: 22.paopaoyun.xyz, port: 19122, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡", server: 15.paopaoyun.xyz, port: 19115, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑫ 电信中转日本", server: 14.paopaoyun.xyz, port: 19114, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑱ 江门中转日本", server: 20.paopaoyun.xyz, port: 19120, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]④ BGB中转日本", server: 6.paopaoyun.xyz, port: 19106, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡", server: 21.paopaoyun.xyz, port: 19121, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑧ 电信中转日本", server: 10.paopaoyun.xyz, port: 19110, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑦ BGB中转日本", server: 9.paopaoyun.xyz, port: 19109, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]③ 江门中转日本", server: 5.paopaoyun.xyz, port: 19105, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑤ 广移中日本", server: 7.paopaoyun.xyz, port: 19107, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]② 广移中转新加坡", server: 4.paopaoyun.xyz, port: 19104, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡", server: 16.paopaoyun.xyz, port: 19116, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑮ 广移中转新加坡", server: 17.paopaoyun.xyz, port: 19117, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑯ 广移中转新加坡", server: 18.paopaoyun.xyz, port: 19118, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡", server: 8.paopaoyun.xyz, port: 19108, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡", server: 11.paopaoyun.xyz, port: 19111, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]㉒ 电信中转新加坡", server: 24.paopaoyun.xyz, port: 19124, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: FR_@baipiao02, server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
   - {name: CA_@baipiao02, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: CA_@baipiao02 2, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -190,36 +166,36 @@ proxies:
   - {name: CN_@baipiao02 8, server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: CA_@baipiao02 34, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: US_@baipiao02 73, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇭🇰 香港(中国)+🚀[极速稳定]", server: 122.9.54.131, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 33bdcd5a83fdd0c0fb3a5083868b05fe5b3f4f80a142889bb764e88882837048}
+  - {name: "🇭🇰 香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e}
+  - {name: "🇸🇬 [Vip1][V2ray]㉑ 电信中转新加坡", server: 23.paopaoyun.xyz, port: 19123, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑩ BGB中转日本", server: 12.paopaoyun.xyz, port: 19112, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡", server: 13.paopaoyun.xyz, port: 19113, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me", server: 3.paopaoyun.xyz, port: 19103, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑰ 江门中转日本", server: 19.paopaoyun.xyz, port: 19119, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡", server: 22.paopaoyun.xyz, port: 19122, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡", server: 15.paopaoyun.xyz, port: 19115, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑫ 电信中转日本", server: 14.paopaoyun.xyz, port: 19114, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑱ 江门中转日本", server: 20.paopaoyun.xyz, port: 19120, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]④ BGB中转日本", server: 6.paopaoyun.xyz, port: 19106, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡", server: 21.paopaoyun.xyz, port: 19121, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑧ 电信中转日本", server: 10.paopaoyun.xyz, port: 19110, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑦ BGB中转日本", server: 9.paopaoyun.xyz, port: 19109, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]③ 江门中转日本", server: 5.paopaoyun.xyz, port: 19105, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑤ 广移中日本", server: 7.paopaoyun.xyz, port: 19107, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]② 广移中转新加坡", server: 4.paopaoyun.xyz, port: 19104, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡", server: 16.paopaoyun.xyz, port: 19116, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑮ 广移中转新加坡", server: 17.paopaoyun.xyz, port: 19117, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑯ 广移中转新加坡", server: 18.paopaoyun.xyz, port: 19118, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡", server: 8.paopaoyun.xyz, port: 19108, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡", server: 11.paopaoyun.xyz, port: 19111, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]㉒ 电信中转新加坡", server: 24.paopaoyun.xyz, port: 19124, type: vmess, uuid: dbac37da-44dd-3d9a-8844-12e8931a55e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港(中国)+🚀[极速稳定]
-      - 🇭🇰 香港(中国)🚀[极速稳定]
-      - 🇸🇬 [Vip1][V2ray]㉑ 电信中转新加坡
-      - 🇯🇵 [Vip1][V2ray]⑩ BGB中转日本
-      - 🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡
-      - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
-      - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
-      - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
-      - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
-      - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
-      - 🇯🇵 [Vip1][V2ray]④ BGB中转日本
-      - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
-      - 🇯🇵 [Vip1][V2ray]⑧ 电信中转日本
-      - 🇯🇵 [Vip1][V2ray]⑦ BGB中转日本
-      - 🇯🇵 [Vip1][V2ray]③ 江门中转日本
-      - 🇯🇵 [Vip1][V2ray]⑤ 广移中日本
-      - 🇸🇬 [Vip1][V2ray]② 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑮ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑯ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]㉒ 电信中转新加坡
       - FR_@baipiao02
       - CA_@baipiao02
       - CA_@baipiao02 2
@@ -381,35 +357,35 @@ proxy-groups:
       - CN_@baipiao02 8
       - CA_@baipiao02 34
       - US_@baipiao02 73
+      - 🇭🇰 香港(中国)+🚀[极速稳定]
+      - 🇭🇰 香港(中国)🚀[极速稳定]
+      - 🇸🇬 [Vip1][V2ray]㉑ 电信中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑩ BGB中转日本
+      - 🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡
+      - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
+      - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
+      - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
+      - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
+      - 🇯🇵 [Vip1][V2ray]④ BGB中转日本
+      - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑧ 电信中转日本
+      - 🇯🇵 [Vip1][V2ray]⑦ BGB中转日本
+      - 🇯🇵 [Vip1][V2ray]③ 江门中转日本
+      - 🇯🇵 [Vip1][V2ray]⑤ 广移中日本
+      - 🇸🇬 [Vip1][V2ray]② 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑮ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑯ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]㉒ 电信中转新加坡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港(中国)+🚀[极速稳定]
-      - 🇭🇰 香港(中国)🚀[极速稳定]
-      - 🇸🇬 [Vip1][V2ray]㉑ 电信中转新加坡
-      - 🇯🇵 [Vip1][V2ray]⑩ BGB中转日本
-      - 🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡
-      - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
-      - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
-      - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
-      - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
-      - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
-      - 🇯🇵 [Vip1][V2ray]④ BGB中转日本
-      - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
-      - 🇯🇵 [Vip1][V2ray]⑧ 电信中转日本
-      - 🇯🇵 [Vip1][V2ray]⑦ BGB中转日本
-      - 🇯🇵 [Vip1][V2ray]③ 江门中转日本
-      - 🇯🇵 [Vip1][V2ray]⑤ 广移中日本
-      - 🇸🇬 [Vip1][V2ray]② 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑮ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑯ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]㉒ 电信中转新加坡
       - FR_@baipiao02
       - CA_@baipiao02
       - CA_@baipiao02 2
@@ -571,6 +547,30 @@ proxy-groups:
       - CN_@baipiao02 8
       - CA_@baipiao02 34
       - US_@baipiao02 73
+      - 🇭🇰 香港(中国)+🚀[极速稳定]
+      - 🇭🇰 香港(中国)🚀[极速稳定]
+      - 🇸🇬 [Vip1][V2ray]㉑ 电信中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑩ BGB中转日本
+      - 🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡
+      - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
+      - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
+      - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
+      - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
+      - 🇯🇵 [Vip1][V2ray]④ BGB中转日本
+      - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑧ 电信中转日本
+      - 🇯🇵 [Vip1][V2ray]⑦ BGB中转日本
+      - 🇯🇵 [Vip1][V2ray]③ 江门中转日本
+      - 🇯🇵 [Vip1][V2ray]⑤ 广移中日本
+      - 🇸🇬 [Vip1][V2ray]② 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑮ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑯ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]㉒ 电信中转新加坡
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -588,30 +588,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港(中国)+🚀[极速稳定]
-      - 🇭🇰 香港(中国)🚀[极速稳定]
-      - 🇸🇬 [Vip1][V2ray]㉑ 电信中转新加坡
-      - 🇯🇵 [Vip1][V2ray]⑩ BGB中转日本
-      - 🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡
-      - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
-      - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
-      - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
-      - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
-      - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
-      - 🇯🇵 [Vip1][V2ray]④ BGB中转日本
-      - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
-      - 🇯🇵 [Vip1][V2ray]⑧ 电信中转日本
-      - 🇯🇵 [Vip1][V2ray]⑦ BGB中转日本
-      - 🇯🇵 [Vip1][V2ray]③ 江门中转日本
-      - 🇯🇵 [Vip1][V2ray]⑤ 广移中日本
-      - 🇸🇬 [Vip1][V2ray]② 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑮ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑯ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡
-      - 🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡
-      - 🇸🇬 [Vip1][V2ray]㉒ 电信中转新加坡
       - FR_@baipiao02
       - CA_@baipiao02
       - CA_@baipiao02 2
@@ -773,6 +749,30 @@ proxy-groups:
       - CN_@baipiao02 8
       - CA_@baipiao02 34
       - US_@baipiao02 73
+      - 🇭🇰 香港(中国)+🚀[极速稳定]
+      - 🇭🇰 香港(中国)🚀[极速稳定]
+      - 🇸🇬 [Vip1][V2ray]㉑ 电信中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑩ BGB中转日本
+      - 🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡
+      - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
+      - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
+      - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
+      - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
+      - 🇯🇵 [Vip1][V2ray]④ BGB中转日本
+      - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑧ 电信中转日本
+      - 🇯🇵 [Vip1][V2ray]⑦ BGB中转日本
+      - 🇯🇵 [Vip1][V2ray]③ 江门中转日本
+      - 🇯🇵 [Vip1][V2ray]⑤ 广移中日本
+      - 🇸🇬 [Vip1][V2ray]② 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑮ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑯ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡
+      - 🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡
+      - 🇸🇬 [Vip1][V2ray]㉒ 电信中转新加坡
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
