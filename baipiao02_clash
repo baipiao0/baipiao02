@@ -5,27 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_@baipiao02, server: 120.233.10.182, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
-  - {name: 🇺🇸 US, server: 209.141.47.137, port: 443, type: trojan, password: 2c5f6ea7-0d9a-44c7-bdd0-0f7515ff6c8f, skip-cert-verify: false}
-  - {name: CN_@baipiao02 2, server: 120.233.10.182, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
-  - {name: CN_@baipiao02 3, server: 120.233.10.182, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
-  - {name: CN_@baipiao02 4, server: 120.233.10.182, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
-  - {name: IN_@baipiao02, server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, skip-cert-verify: false}
-  - {name: CN_@baipiao02 5, server: 183.232.56.161, port: 1202, type: vmess, uuid: 5af5d0ec-6ea0-3c43-93db-ca3008503bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: JP_@baipiao02, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: JP_@baipiao02 2, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: CN_@baipiao02 6, server: 120.232.173.119, port: 13008, type: ss, cipher: chacha20-ietf-poly1305, password: 3f448e67-ad9e-4cc2-ab6b-51f69445fdd9}
-  - {name: FR_@baipiao02, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: HK_@baipiao02, server: 20.187.67.98, port: 15074, type: vmess, uuid: 10c59e2c-7b3f-4756-dc3d-18d1d7b67a9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20.187.67.98}}}
+  - {name: CN_@baipiao02, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: KR_@baipiao02, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v.mumi.bid}}}
+  - {name: CN_@baipiao02 2, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: ""}
+  - {name: US_@baipiao02, server: 209.141.35.147, port: 48919, type: trojan, password: 52911320-db53-40ff-917a-e5de797c28e7, skip-cert-verify: false}
+  - {name: CN_@baipiao02 3, server: 120.233.10.182, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
+  - {name: CN_@baipiao02 4, server: 120.233.10.182, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
+  - {name: SG_@baipiao02, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: false}
+  - {name: US_@baipiao02 2, server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 104.168.13.8}}}
+  - {name: AU_@baipiao02, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CN_@baipiao02 5, server: shallaz.proconcn.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: ""}
+  - {name: FR_@baipiao02, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: FR_@baipiao02 2, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: FR_@baipiao02 3, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CN_@baipiao02 7, server: zjcm.relay.qchwnd.moe, port: 10202, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, skip-cert-verify: false}
-  - {name: JP_@baipiao02 3, server: 11.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
-  - {name: CN_@baipiao02 8, server: 120.232.173.119, port: 13017, type: ss, cipher: chacha20-ietf-poly1305, password: 3f448e67-ad9e-4cc2-ab6b-51f69445fdd9}
-  - {name: JP_@baipiao02 4, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: false}
+  - {name: SG_@baipiao02 2, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
+  - {name: JP_@baipiao02, server: 11.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
+  - {name: HK_@baipiao02 2, server: 18.163.186.175, port: 8443, type: trojan, password: nDlVCzsl9r, skip-cert-verify: false}
+  - {name: KR_@baipiao02 2, server: 27.102.67.85, port: 44200, type: vmess, uuid: 6319d480-90d3-42c6-e65a-a1d771c61575, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 27.102.67.85}}}
+  - {name: JP_@baipiao02 2, server: 3.112.54.84, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
+  - {name: KR_@baipiao02 3, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP_@baipiao02 3, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
+  - {name: CN_@baipiao02 6, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: ""}
+  - {name: JP_@baipiao02 4, server: japanfastnetwork.club, port: 443, type: vmess, uuid: fb8ed8a9-ad61-4a12-90c6-55670a4a3332, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /neuromancer, headers: {Host: japanfastnetwork.club}}}
+  - {name: CN_@baipiao02 7, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: ""}
+  - {name: JP_@baipiao02 5, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
+  - {name: CN_@baipiao02 8, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: ""}
+  - {name: KR_@baipiao02 4, server: chuna1.515223.xyz, port: 24793, type: vmess, uuid: 58975106-dc46-4942-b79e-336da67f1bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: KR_@baipiao02 5, server: chuna1.515223.xyz, port: 24793, type: vmess, uuid: 58975106-dc46-4942-b79e-336da67f1bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: FR_@baipiao02 3, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: CN_@baipiao02 9, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: ""}
+  - {name: JP_@baipiao02 6, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: false}
+  - {name: CN_@baipiao02 10, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: ""}
+  - {name: HK_@baipiao02 3, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: JP_@baipiao02 7, server: 206.190.237.248, port: 57261, type: vmess, uuid: aaea084b-b79e-48ea-a469-cdf475258591, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇯🇵 日本AWS｜Direct, server: 11.earths.team, port: 443, type: trojan, password: 2c5f6ea7-0d9a-44c7-bdd0-0f7515ff6c8f, skip-cert-verify: false}
-  - {name: FR_@baipiao02 4, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_@baipiao02, server: 169.197.142.238, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: SG_@baipiao02, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
+  - {name: CN_@baipiao02 11, server: 120.233.10.182, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
+  - {name: CN_@baipiao02 12, server: 120.233.10.182, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
+  - {name: CN_@baipiao02 13, server: 120.233.10.182, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
+  - {name: CN_@baipiao02 14, server: 120.233.10.182, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
+  - {name: FR_@baipiao02 4, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: FR_@baipiao02 5, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 US, server: 209.141.47.137, port: 443, type: trojan, password: 2c5f6ea7-0d9a-44c7-bdd0-0f7515ff6c8f, skip-cert-verify: false}
   - {name: 🇭🇰 香港01, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: false}
   - {name: 🇩🇪 德国, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: 🇨🇦 加拿大, server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123}
@@ -54,25 +74,28 @@ proxies:
   - {name: 🇬🇧 uk.gotochinatown.net:10882, server: uk.gotochinatown.net, port: 10882, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
   - {name: "🇭🇰 香港(中国)+🚀[极速稳定]", server: 122.9.54.131, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 33bdcd5a83fdd0c0fb3a5083868b05fe5b3f4f80a142889bb764e88882837048}
   - {name: "🇭🇰 香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e}
-  - {name: "🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me", server: 3.paopaoyun.xyz, port: 19103, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]② 广移中转新加坡", server: 4.paopaoyun.xyz, port: 19104, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]③ 江门中转日本", server: 5.paopaoyun.xyz, port: 19105, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]④ BGB中转日本", server: 6.paopaoyun.xyz, port: 19106, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑤ 广移中日本", server: 7.paopaoyun.xyz, port: 19107, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡", server: 8.paopaoyun.xyz, port: 19108, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑦ BGB中转日本", server: 9.paopaoyun.xyz, port: 19109, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑧ 电信中转日本", server: 10.paopaoyun.xyz, port: 19110, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡", server: 11.paopaoyun.xyz, port: 19111, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑩ BGB中转日本", server: 12.paopaoyun.xyz, port: 19112, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡", server: 13.paopaoyun.xyz, port: 19113, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑫ 电信中转日本", server: 14.paopaoyun.xyz, port: 19114, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡", server: 15.paopaoyun.xyz, port: 19115, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡", server: 16.paopaoyun.xyz, port: 19116, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑰ 江门中转日本", server: 19.paopaoyun.xyz, port: 19119, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑱ 江门中转日本", server: 20.paopaoyun.xyz, port: 19120, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡", server: 21.paopaoyun.xyz, port: 19121, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡", server: 22.paopaoyun.xyz, port: 19122, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇺🇸 [Vip1][V2ray]㉒ 电信中转美国", server: 24.paopaoyun.xyz, port: 19124, type: vmess, uuid: c031c63c-2300-311d-afbe-000bbb20665f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me", server: 3.paopaoyun.xyz, port: 19103, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]② 广移中转新加坡", server: 4.paopaoyun.xyz, port: 19104, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]③ 江门中转日本", server: 5.paopaoyun.xyz, port: 19105, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]④ BGB中转日本", server: 6.paopaoyun.xyz, port: 19106, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑤ 广移中日本", server: 7.paopaoyun.xyz, port: 19107, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡", server: 8.paopaoyun.xyz, port: 19108, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑦ BGB中转日本", server: 9.paopaoyun.xyz, port: 19109, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑧ 电信中转日本", server: 10.paopaoyun.xyz, port: 19110, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡", server: 11.paopaoyun.xyz, port: 19111, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑩ BGB中转日本", server: 12.paopaoyun.xyz, port: 19112, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡", server: 13.paopaoyun.xyz, port: 19113, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑫ 电信中转日本", server: 14.paopaoyun.xyz, port: 19114, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡", server: 15.paopaoyun.xyz, port: 19115, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡", server: 16.paopaoyun.xyz, port: 19116, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑮ 广移中转日本", server: 17.paopaoyun.xyz, port: 19117, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑯ 广移中转日本", server: 18.paopaoyun.xyz, port: 19118, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑰ 江门中转日本", server: 19.paopaoyun.xyz, port: 19119, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑱ 江门中转日本", server: 20.paopaoyun.xyz, port: 19120, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡", server: 21.paopaoyun.xyz, port: 19121, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡", server: 22.paopaoyun.xyz, port: 19122, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]㉑ 电信中转日本", server: 23.paopaoyun.xyz, port: 19123, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇺🇸 [Vip1][V2ray]㉒ 电信中转美国", server: 24.paopaoyun.xyz, port: 19124, type: vmess, uuid: 56f44a5f-8c83-3207-be2e-2af1e21b9487, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -81,27 +104,47 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - HK_@baipiao02
       - CN_@baipiao02
-      - 🇺🇸 US
+      - KR_@baipiao02
       - CN_@baipiao02 2
+      - US_@baipiao02
       - CN_@baipiao02 3
       - CN_@baipiao02 4
-      - IN_@baipiao02
+      - SG_@baipiao02
+      - US_@baipiao02 2
+      - AU_@baipiao02
       - CN_@baipiao02 5
-      - JP_@baipiao02
-      - JP_@baipiao02 2
-      - CN_@baipiao02 6
       - FR_@baipiao02
       - FR_@baipiao02 2
-      - FR_@baipiao02 3
-      - CN_@baipiao02 7
+      - SG_@baipiao02 2
+      - JP_@baipiao02
+      - HK_@baipiao02 2
+      - KR_@baipiao02 2
+      - JP_@baipiao02 2
+      - KR_@baipiao02 3
       - JP_@baipiao02 3
-      - CN_@baipiao02 8
+      - CN_@baipiao02 6
       - JP_@baipiao02 4
+      - CN_@baipiao02 7
+      - JP_@baipiao02 5
+      - CN_@baipiao02 8
+      - KR_@baipiao02 4
+      - KR_@baipiao02 5
+      - FR_@baipiao02 3
+      - CN_@baipiao02 9
+      - JP_@baipiao02 6
+      - CN_@baipiao02 10
+      - HK_@baipiao02 3
+      - JP_@baipiao02 7
       - 🇯🇵 日本AWS｜Direct
+      - CN_@baipiao02 11
+      - CN_@baipiao02 12
+      - CN_@baipiao02 13
+      - CN_@baipiao02 14
       - FR_@baipiao02 4
-      - US_@baipiao02
-      - SG_@baipiao02
+      - FR_@baipiao02 5
+      - 🇺🇸 US
       - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
@@ -144,37 +187,60 @@ proxy-groups:
       - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
       - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑮ 广移中转日本
+      - 🇯🇵 [Vip1][V2ray]⑯ 广移中转日本
       - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
       - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
       - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
+      - 🇯🇵 [Vip1][V2ray]㉑ 电信中转日本
       - 🇺🇸 [Vip1][V2ray]㉒ 电信中转美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - HK_@baipiao02
       - CN_@baipiao02
-      - 🇺🇸 US
+      - KR_@baipiao02
       - CN_@baipiao02 2
+      - US_@baipiao02
       - CN_@baipiao02 3
       - CN_@baipiao02 4
-      - IN_@baipiao02
+      - SG_@baipiao02
+      - US_@baipiao02 2
+      - AU_@baipiao02
       - CN_@baipiao02 5
-      - JP_@baipiao02
-      - JP_@baipiao02 2
-      - CN_@baipiao02 6
       - FR_@baipiao02
       - FR_@baipiao02 2
-      - FR_@baipiao02 3
-      - CN_@baipiao02 7
+      - SG_@baipiao02 2
+      - JP_@baipiao02
+      - HK_@baipiao02 2
+      - KR_@baipiao02 2
+      - JP_@baipiao02 2
+      - KR_@baipiao02 3
       - JP_@baipiao02 3
-      - CN_@baipiao02 8
+      - CN_@baipiao02 6
       - JP_@baipiao02 4
+      - CN_@baipiao02 7
+      - JP_@baipiao02 5
+      - CN_@baipiao02 8
+      - KR_@baipiao02 4
+      - KR_@baipiao02 5
+      - FR_@baipiao02 3
+      - CN_@baipiao02 9
+      - JP_@baipiao02 6
+      - CN_@baipiao02 10
+      - HK_@baipiao02 3
+      - JP_@baipiao02 7
       - 🇯🇵 日本AWS｜Direct
+      - CN_@baipiao02 11
+      - CN_@baipiao02 12
+      - CN_@baipiao02 13
+      - CN_@baipiao02 14
       - FR_@baipiao02 4
-      - US_@baipiao02
-      - SG_@baipiao02
+      - FR_@baipiao02 5
+      - 🇺🇸 US
       - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
@@ -217,37 +283,60 @@ proxy-groups:
       - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
       - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑮ 广移中转日本
+      - 🇯🇵 [Vip1][V2ray]⑯ 广移中转日本
       - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
       - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
       - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
+      - 🇯🇵 [Vip1][V2ray]㉑ 电信中转日本
       - 🇺🇸 [Vip1][V2ray]㉒ 电信中转美国
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - HK_@baipiao02
       - CN_@baipiao02
-      - 🇺🇸 US
+      - KR_@baipiao02
       - CN_@baipiao02 2
+      - US_@baipiao02
       - CN_@baipiao02 3
       - CN_@baipiao02 4
-      - IN_@baipiao02
+      - SG_@baipiao02
+      - US_@baipiao02 2
+      - AU_@baipiao02
       - CN_@baipiao02 5
-      - JP_@baipiao02
-      - JP_@baipiao02 2
-      - CN_@baipiao02 6
       - FR_@baipiao02
       - FR_@baipiao02 2
-      - FR_@baipiao02 3
-      - CN_@baipiao02 7
+      - SG_@baipiao02 2
+      - JP_@baipiao02
+      - HK_@baipiao02 2
+      - KR_@baipiao02 2
+      - JP_@baipiao02 2
+      - KR_@baipiao02 3
       - JP_@baipiao02 3
-      - CN_@baipiao02 8
+      - CN_@baipiao02 6
       - JP_@baipiao02 4
+      - CN_@baipiao02 7
+      - JP_@baipiao02 5
+      - CN_@baipiao02 8
+      - KR_@baipiao02 4
+      - KR_@baipiao02 5
+      - FR_@baipiao02 3
+      - CN_@baipiao02 9
+      - JP_@baipiao02 6
+      - CN_@baipiao02 10
+      - HK_@baipiao02 3
+      - JP_@baipiao02 7
       - 🇯🇵 日本AWS｜Direct
+      - CN_@baipiao02 11
+      - CN_@baipiao02 12
+      - CN_@baipiao02 13
+      - CN_@baipiao02 14
       - FR_@baipiao02 4
-      - US_@baipiao02
-      - SG_@baipiao02
+      - FR_@baipiao02 5
+      - 🇺🇸 US
       - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
@@ -290,10 +379,13 @@ proxy-groups:
       - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
       - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑮ 广移中转日本
+      - 🇯🇵 [Vip1][V2ray]⑯ 广移中转日本
       - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
       - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
       - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
+      - 🇯🇵 [Vip1][V2ray]㉑ 电信中转日本
       - 🇺🇸 [Vip1][V2ray]㉒ 电信中转美国
   - name: 🔮 负载均衡
     type: load-balance
@@ -301,27 +393,47 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - HK_@baipiao02
       - CN_@baipiao02
-      - 🇺🇸 US
+      - KR_@baipiao02
       - CN_@baipiao02 2
+      - US_@baipiao02
       - CN_@baipiao02 3
       - CN_@baipiao02 4
-      - IN_@baipiao02
+      - SG_@baipiao02
+      - US_@baipiao02 2
+      - AU_@baipiao02
       - CN_@baipiao02 5
-      - JP_@baipiao02
-      - JP_@baipiao02 2
-      - CN_@baipiao02 6
       - FR_@baipiao02
       - FR_@baipiao02 2
-      - FR_@baipiao02 3
-      - CN_@baipiao02 7
+      - SG_@baipiao02 2
+      - JP_@baipiao02
+      - HK_@baipiao02 2
+      - KR_@baipiao02 2
+      - JP_@baipiao02 2
+      - KR_@baipiao02 3
       - JP_@baipiao02 3
-      - CN_@baipiao02 8
+      - CN_@baipiao02 6
       - JP_@baipiao02 4
+      - CN_@baipiao02 7
+      - JP_@baipiao02 5
+      - CN_@baipiao02 8
+      - KR_@baipiao02 4
+      - KR_@baipiao02 5
+      - FR_@baipiao02 3
+      - CN_@baipiao02 9
+      - JP_@baipiao02 6
+      - CN_@baipiao02 10
+      - HK_@baipiao02 3
+      - JP_@baipiao02 7
       - 🇯🇵 日本AWS｜Direct
+      - CN_@baipiao02 11
+      - CN_@baipiao02 12
+      - CN_@baipiao02 13
+      - CN_@baipiao02 14
       - FR_@baipiao02 4
-      - US_@baipiao02
-      - SG_@baipiao02
+      - FR_@baipiao02 5
+      - 🇺🇸 US
       - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
@@ -364,10 +476,13 @@ proxy-groups:
       - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
       - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑮ 广移中转日本
+      - 🇯🇵 [Vip1][V2ray]⑯ 广移中转日本
       - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
       - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
       - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
+      - 🇯🇵 [Vip1][V2ray]㉑ 电信中转日本
       - 🇺🇸 [Vip1][V2ray]㉒ 电信中转美国
   - name: 🎯 全球直连
     type: select
@@ -388,27 +503,47 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - HK_@baipiao02
       - CN_@baipiao02
-      - 🇺🇸 US
+      - KR_@baipiao02
       - CN_@baipiao02 2
+      - US_@baipiao02
       - CN_@baipiao02 3
       - CN_@baipiao02 4
-      - IN_@baipiao02
+      - SG_@baipiao02
+      - US_@baipiao02 2
+      - AU_@baipiao02
       - CN_@baipiao02 5
-      - JP_@baipiao02
-      - JP_@baipiao02 2
-      - CN_@baipiao02 6
       - FR_@baipiao02
       - FR_@baipiao02 2
-      - FR_@baipiao02 3
-      - CN_@baipiao02 7
+      - SG_@baipiao02 2
+      - JP_@baipiao02
+      - HK_@baipiao02 2
+      - KR_@baipiao02 2
+      - JP_@baipiao02 2
+      - KR_@baipiao02 3
       - JP_@baipiao02 3
-      - CN_@baipiao02 8
+      - CN_@baipiao02 6
       - JP_@baipiao02 4
+      - CN_@baipiao02 7
+      - JP_@baipiao02 5
+      - CN_@baipiao02 8
+      - KR_@baipiao02 4
+      - KR_@baipiao02 5
+      - FR_@baipiao02 3
+      - CN_@baipiao02 9
+      - JP_@baipiao02 6
+      - CN_@baipiao02 10
+      - HK_@baipiao02 3
+      - JP_@baipiao02 7
       - 🇯🇵 日本AWS｜Direct
+      - CN_@baipiao02 11
+      - CN_@baipiao02 12
+      - CN_@baipiao02 13
+      - CN_@baipiao02 14
       - FR_@baipiao02 4
-      - US_@baipiao02
-      - SG_@baipiao02
+      - FR_@baipiao02 5
+      - 🇺🇸 US
       - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
@@ -451,10 +586,13 @@ proxy-groups:
       - 🇯🇵 [Vip1][V2ray]⑫ 电信中转日本
       - 🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡
+      - 🇯🇵 [Vip1][V2ray]⑮ 广移中转日本
+      - 🇯🇵 [Vip1][V2ray]⑯ 广移中转日本
       - 🇯🇵 [Vip1][V2ray]⑰ 江门中转日本
       - 🇯🇵 [Vip1][V2ray]⑱ 江门中转日本
       - 🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡
       - 🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡
+      - 🇯🇵 [Vip1][V2ray]㉑ 电信中转日本
       - 🇺🇸 [Vip1][V2ray]㉒ 电信中转美国
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
