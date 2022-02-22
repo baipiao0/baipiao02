@@ -33,7 +33,6 @@ proxies:
   - {name: FR_@baipiao02 3, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: JP_@baipiao02 8, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
   - {name: 🇺🇸 US, server: 209.141.47.137, port: 443, type: trojan, password: 2c5f6ea7-0d9a-44c7-bdd0-0f7515ff6c8f, skip-cert-verify: false}
-  - {name: 🇭🇰 香港01, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: false}
   - {name: 🇩🇪 德国, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: 🇨🇦 加拿大, server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: 🇷🇺 俄罗斯, server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123}
@@ -109,7 +108,6 @@ proxy-groups:
       - FR_@baipiao02 3
       - JP_@baipiao02 8
       - 🇺🇸 US
-      - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
       - 🇷🇺 俄罗斯
@@ -182,7 +180,6 @@ proxy-groups:
       - FR_@baipiao02 3
       - JP_@baipiao02 8
       - 🇺🇸 US
-      - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
       - 🇷🇺 俄罗斯
@@ -255,7 +252,6 @@ proxy-groups:
       - FR_@baipiao02 3
       - JP_@baipiao02 8
       - 🇺🇸 US
-      - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
       - 🇷🇺 俄罗斯
@@ -329,7 +325,6 @@ proxy-groups:
       - FR_@baipiao02 3
       - JP_@baipiao02 8
       - 🇺🇸 US
-      - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
       - 🇷🇺 俄罗斯
@@ -416,7 +411,6 @@ proxy-groups:
       - FR_@baipiao02 3
       - JP_@baipiao02 8
       - 🇺🇸 US
-      - 🇭🇰 香港01
       - 🇩🇪 德国
       - 🇨🇦 加拿大
       - 🇷🇺 俄罗斯
