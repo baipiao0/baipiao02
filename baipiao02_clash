@@ -5,50 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_@baipiao02, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
+  - {name: US_@baipiao02, server: 38.91.100.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 US, server: 209.141.47.137, port: 443, type: trojan, password: 2c5f6ea7-0d9a-44c7-bdd0-0f7515ff6c8f, skip-cert-verify: false}
   - {name: SG_@baipiao02, server: azhk.relay.qchwnd.moe, port: 10215, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, skip-cert-verify: false}
-  - {name: IN_@baipiao02, server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, skip-cert-verify: false}
-  - {name: CN_@baipiao02 2, server: 120.233.10.182, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
   - {name: SG_@baipiao02 2, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: false}
   - {name: SG_@baipiao02 3, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
-  - {name: CN_@baipiao02 3, server: gz2.52168.xyz, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
-  - {name: HK_@baipiao02, server: 18.163.186.175, port: 8443, type: trojan, password: nDlVCzsl9r, skip-cert-verify: false}
-  - {name: HK_@baipiao02 2, server: hk1.qtycloud.link, port: 1507, type: vmess, uuid: f6c5e143-fbb2-3cc2-8388-cb74a2e5854e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}}
   - {name: SG_@baipiao02 4, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: false}
   - {name: JP_@baipiao02, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: FR_@baipiao02, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: HK_@baipiao02 3, server: hk1.qtycloud.link, port: 1501, type: vmess, uuid: f6c5e143-fbb2-3cc2-8388-cb74a2e5854e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}}
-  - {name: HK_@baipiao02 4, server: 18.163.186.175, port: 8443, type: trojan, password: nDlVCzsl9r, skip-cert-verify: false}
-  - {name: FR_@baipiao02 2, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CN_@baipiao02 4, server: 183.240.181.20, port: 1112, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: t.me/vpnhat}
-  - {name: HK_@baipiao02 5, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: JP_@baipiao02 2, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: HK_@baipiao02 6, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: JP_@baipiao02 3, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: JP_@baipiao02 4, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: JP_@baipiao02 5, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
+  - {name: JP_@baipiao02 4, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
+  - {name: JP_@baipiao02 5, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: false}
+  - {name: IN_@baipiao02, server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, skip-cert-verify: false}
+  - {name: IN_@baipiao02 2, server: 192.46.212.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: IN_@baipiao02 3, server: 192.46.212.33, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: HK_@baipiao02, server: 18.163.186.175, port: 8443, type: trojan, password: nDlVCzsl9r, skip-cert-verify: false}
+  - {name: HK_@baipiao02 2, server: hk1.qtycloud.link, port: 1507, type: vmess, uuid: f6c5e143-fbb2-3cc2-8388-cb74a2e5854e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}}
+  - {name: HK_@baipiao02 3, server: hk1.qtycloud.link, port: 1501, type: vmess, uuid: f6c5e143-fbb2-3cc2-8388-cb74a2e5854e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}}
+  - {name: HK_@baipiao02 4, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: HK_@baipiao02 5, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: HK_@baipiao02 6, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: FR_@baipiao02, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: FR_@baipiao02 2, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CN_@baipiao02, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
+  - {name: CN_@baipiao02 2, server: 120.233.10.182, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
+  - {name: CN_@baipiao02 3, server: gz2.52168.xyz, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
+  - {name: CN_@baipiao02 4, server: 183.240.181.20, port: 1112, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: t.me/vpnhat}
   - {name: CN_@baipiao02 5, server: gz2.52168.xyz, port: 2105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
-  - {name: JP_@baipiao02 6, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: false}
-  - {name: JP_@baipiao02 7, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: false}
-  - {name: FR_@baipiao02 3, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: JP_@baipiao02 8, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: 🇺🇸 US, server: 209.141.47.137, port: 443, type: trojan, password: 2c5f6ea7-0d9a-44c7-bdd0-0f7515ff6c8f, skip-cert-verify: false}
-  - {name: 🇩🇪 德国, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 🇨🇦 加拿大, server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 🇷🇺 俄罗斯, server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 🇯🇵 日本, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 🇭🇰 香港5, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk01.fans8.xyz}}}
-  - {name: cm.stunnel.vip:4700, server: cm.stunnel.vip, port: 4700, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
-  - {name: 🇹🇼 tw.gotochinatown.net:10881, server: tw.gotochinatown.net, port: 10881, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
+  - {name: CN_@baipiao02 6, server: ct.mj-cn.cyou, port: 16617, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ct.mj-cn.cyou}}}
+  - {name: CN_@baipiao02 7, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.mj-cn.cyou}}}
+  - {name: CN_@baipiao02 8, server: ct.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ct.mj-cn.cyou}}}
+  - {name: CA_@baipiao02, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 🇦🇺 au.gotochinatown.net:10930, server: au.gotochinatown.net, port: 10930, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
+  - {name: 🇹🇼 tw.gotochinatown.net:10881, server: tw.gotochinatown.net, port: 10881, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
+  - {name: 🇩🇪 de.gotochinatown.net:10887, server: de.gotochinatown.net, port: 10887, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
   - {name: 🇫🇷 fr.gotochinatown.net:10910, server: fr.gotochinatown.net, port: 10910, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
-  - {name: 🇦🇺 au.gotochinatown.net:10930 2, server: au.gotochinatown.net, port: 10930, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
-  - {name: 🇷🇺 ru.gotochinatown.net:10883, server: ru.gotochinatown.net, port: 10883, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
+  - {name: 🇬🇧 uk.gotochinatown.net:10882, server: uk.gotochinatown.net, port: 10882, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
+  - {name: cm.stunnel.vip:4700, server: cm.stunnel.vip, port: 4700, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
   - {name: 🇮🇳 in.gotochinatown.net:10884, server: in.gotochinatown.net, port: 10884, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
   - {name: 🇨🇳 jpl.gotochinatown.net:10888#%%%%%%%%%%%%%%i, server: jpl.gotochinatown.net, port: 10888, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
   - {name: 🇨🇳 nz.gotochinatown.net:10920, server: nz.gotochinatown.net, port: 10920, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
-  - {name: 🇩🇪 de.gotochinatown.net:10887, server: de.gotochinatown.net, port: 10887, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
-  - {name: 🇬🇧 uk.gotochinatown.net:10882, server: uk.gotochinatown.net, port: 10882, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
+  - {name: 🇷🇺 ru.gotochinatown.net:10883, server: ru.gotochinatown.net, port: 10883, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
+  - {name: 🇩🇪 德国, server: 117.28.243.220, port: 8223, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: 🇷🇺 俄罗斯, server: 117.28.243.220, port: 8045, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: 🇨🇦 加拿大, server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: 🇯🇵 日本, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: "🇭🇰 香港(中国)+🚀[极速稳定]", server: 122.9.54.131, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 33bdcd5a83fdd0c0fb3a5083868b05fe5b3f4f80a142889bb764e88882837048}
   - {name: "🇭🇰 香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e}
   - {name: "🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me", server: 3.paopaoyun.xyz, port: 19103, type: vmess, uuid: 291c406c-0f6d-3a0a-818d-395a49bfa770, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
@@ -80,50 +81,51 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - CN_@baipiao02
+      - US_@baipiao02
+      - 🇺🇸 US
       - SG_@baipiao02
-      - IN_@baipiao02
-      - CN_@baipiao02 2
       - SG_@baipiao02 2
       - SG_@baipiao02 3
-      - CN_@baipiao02 3
-      - HK_@baipiao02
-      - HK_@baipiao02 2
       - SG_@baipiao02 4
       - JP_@baipiao02
-      - FR_@baipiao02
-      - HK_@baipiao02 3
-      - HK_@baipiao02 4
-      - FR_@baipiao02 2
-      - CN_@baipiao02 4
-      - HK_@baipiao02 5
       - JP_@baipiao02 2
-      - HK_@baipiao02 6
       - JP_@baipiao02 3
       - JP_@baipiao02 4
       - JP_@baipiao02 5
+      - IN_@baipiao02
+      - IN_@baipiao02 2
+      - IN_@baipiao02 3
+      - HK_@baipiao02
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - HK_@baipiao02 5
+      - HK_@baipiao02 6
+      - FR_@baipiao02
+      - FR_@baipiao02 2
+      - CN_@baipiao02
+      - CN_@baipiao02 2
+      - CN_@baipiao02 3
+      - CN_@baipiao02 4
       - CN_@baipiao02 5
-      - JP_@baipiao02 6
-      - JP_@baipiao02 7
-      - FR_@baipiao02 3
-      - JP_@baipiao02 8
-      - 🇺🇸 US
-      - 🇩🇪 德国
-      - 🇨🇦 加拿大
-      - 🇷🇺 俄罗斯
-      - 🇯🇵 日本
-      - 🇭🇰 香港5
-      - cm.stunnel.vip:4700
-      - 🇹🇼 tw.gotochinatown.net:10881
+      - CN_@baipiao02 6
+      - CN_@baipiao02 7
+      - CN_@baipiao02 8
+      - CA_@baipiao02
       - 🇦🇺 au.gotochinatown.net:10930
+      - 🇹🇼 tw.gotochinatown.net:10881
+      - 🇩🇪 de.gotochinatown.net:10887
       - 🇫🇷 fr.gotochinatown.net:10910
-      - 🇦🇺 au.gotochinatown.net:10930 2
-      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇬🇧 uk.gotochinatown.net:10882
+      - cm.stunnel.vip:4700
       - 🇮🇳 in.gotochinatown.net:10884
       - 🇨🇳 jpl.gotochinatown.net:10888#%%%%%%%%%%%%%%i
       - 🇨🇳 nz.gotochinatown.net:10920
-      - 🇩🇪 de.gotochinatown.net:10887
-      - 🇬🇧 uk.gotochinatown.net:10882
+      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇩🇪 德国
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
       - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
@@ -152,50 +154,51 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_@baipiao02
+      - US_@baipiao02
+      - 🇺🇸 US
       - SG_@baipiao02
-      - IN_@baipiao02
-      - CN_@baipiao02 2
       - SG_@baipiao02 2
       - SG_@baipiao02 3
-      - CN_@baipiao02 3
-      - HK_@baipiao02
-      - HK_@baipiao02 2
       - SG_@baipiao02 4
       - JP_@baipiao02
-      - FR_@baipiao02
-      - HK_@baipiao02 3
-      - HK_@baipiao02 4
-      - FR_@baipiao02 2
-      - CN_@baipiao02 4
-      - HK_@baipiao02 5
       - JP_@baipiao02 2
-      - HK_@baipiao02 6
       - JP_@baipiao02 3
       - JP_@baipiao02 4
       - JP_@baipiao02 5
+      - IN_@baipiao02
+      - IN_@baipiao02 2
+      - IN_@baipiao02 3
+      - HK_@baipiao02
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - HK_@baipiao02 5
+      - HK_@baipiao02 6
+      - FR_@baipiao02
+      - FR_@baipiao02 2
+      - CN_@baipiao02
+      - CN_@baipiao02 2
+      - CN_@baipiao02 3
+      - CN_@baipiao02 4
       - CN_@baipiao02 5
-      - JP_@baipiao02 6
-      - JP_@baipiao02 7
-      - FR_@baipiao02 3
-      - JP_@baipiao02 8
-      - 🇺🇸 US
-      - 🇩🇪 德国
-      - 🇨🇦 加拿大
-      - 🇷🇺 俄罗斯
-      - 🇯🇵 日本
-      - 🇭🇰 香港5
-      - cm.stunnel.vip:4700
-      - 🇹🇼 tw.gotochinatown.net:10881
+      - CN_@baipiao02 6
+      - CN_@baipiao02 7
+      - CN_@baipiao02 8
+      - CA_@baipiao02
       - 🇦🇺 au.gotochinatown.net:10930
+      - 🇹🇼 tw.gotochinatown.net:10881
+      - 🇩🇪 de.gotochinatown.net:10887
       - 🇫🇷 fr.gotochinatown.net:10910
-      - 🇦🇺 au.gotochinatown.net:10930 2
-      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇬🇧 uk.gotochinatown.net:10882
+      - cm.stunnel.vip:4700
       - 🇮🇳 in.gotochinatown.net:10884
       - 🇨🇳 jpl.gotochinatown.net:10888#%%%%%%%%%%%%%%i
       - 🇨🇳 nz.gotochinatown.net:10920
-      - 🇩🇪 de.gotochinatown.net:10887
-      - 🇬🇧 uk.gotochinatown.net:10882
+      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇩🇪 德国
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
       - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
@@ -224,50 +227,51 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - CN_@baipiao02
+      - US_@baipiao02
+      - 🇺🇸 US
       - SG_@baipiao02
-      - IN_@baipiao02
-      - CN_@baipiao02 2
       - SG_@baipiao02 2
       - SG_@baipiao02 3
-      - CN_@baipiao02 3
-      - HK_@baipiao02
-      - HK_@baipiao02 2
       - SG_@baipiao02 4
       - JP_@baipiao02
-      - FR_@baipiao02
-      - HK_@baipiao02 3
-      - HK_@baipiao02 4
-      - FR_@baipiao02 2
-      - CN_@baipiao02 4
-      - HK_@baipiao02 5
       - JP_@baipiao02 2
-      - HK_@baipiao02 6
       - JP_@baipiao02 3
       - JP_@baipiao02 4
       - JP_@baipiao02 5
+      - IN_@baipiao02
+      - IN_@baipiao02 2
+      - IN_@baipiao02 3
+      - HK_@baipiao02
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - HK_@baipiao02 5
+      - HK_@baipiao02 6
+      - FR_@baipiao02
+      - FR_@baipiao02 2
+      - CN_@baipiao02
+      - CN_@baipiao02 2
+      - CN_@baipiao02 3
+      - CN_@baipiao02 4
       - CN_@baipiao02 5
-      - JP_@baipiao02 6
-      - JP_@baipiao02 7
-      - FR_@baipiao02 3
-      - JP_@baipiao02 8
-      - 🇺🇸 US
-      - 🇩🇪 德国
-      - 🇨🇦 加拿大
-      - 🇷🇺 俄罗斯
-      - 🇯🇵 日本
-      - 🇭🇰 香港5
-      - cm.stunnel.vip:4700
-      - 🇹🇼 tw.gotochinatown.net:10881
+      - CN_@baipiao02 6
+      - CN_@baipiao02 7
+      - CN_@baipiao02 8
+      - CA_@baipiao02
       - 🇦🇺 au.gotochinatown.net:10930
+      - 🇹🇼 tw.gotochinatown.net:10881
+      - 🇩🇪 de.gotochinatown.net:10887
       - 🇫🇷 fr.gotochinatown.net:10910
-      - 🇦🇺 au.gotochinatown.net:10930 2
-      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇬🇧 uk.gotochinatown.net:10882
+      - cm.stunnel.vip:4700
       - 🇮🇳 in.gotochinatown.net:10884
       - 🇨🇳 jpl.gotochinatown.net:10888#%%%%%%%%%%%%%%i
       - 🇨🇳 nz.gotochinatown.net:10920
-      - 🇩🇪 de.gotochinatown.net:10887
-      - 🇬🇧 uk.gotochinatown.net:10882
+      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇩🇪 德国
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
       - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
@@ -297,50 +301,51 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - CN_@baipiao02
+      - US_@baipiao02
+      - 🇺🇸 US
       - SG_@baipiao02
-      - IN_@baipiao02
-      - CN_@baipiao02 2
       - SG_@baipiao02 2
       - SG_@baipiao02 3
-      - CN_@baipiao02 3
-      - HK_@baipiao02
-      - HK_@baipiao02 2
       - SG_@baipiao02 4
       - JP_@baipiao02
-      - FR_@baipiao02
-      - HK_@baipiao02 3
-      - HK_@baipiao02 4
-      - FR_@baipiao02 2
-      - CN_@baipiao02 4
-      - HK_@baipiao02 5
       - JP_@baipiao02 2
-      - HK_@baipiao02 6
       - JP_@baipiao02 3
       - JP_@baipiao02 4
       - JP_@baipiao02 5
+      - IN_@baipiao02
+      - IN_@baipiao02 2
+      - IN_@baipiao02 3
+      - HK_@baipiao02
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - HK_@baipiao02 5
+      - HK_@baipiao02 6
+      - FR_@baipiao02
+      - FR_@baipiao02 2
+      - CN_@baipiao02
+      - CN_@baipiao02 2
+      - CN_@baipiao02 3
+      - CN_@baipiao02 4
       - CN_@baipiao02 5
-      - JP_@baipiao02 6
-      - JP_@baipiao02 7
-      - FR_@baipiao02 3
-      - JP_@baipiao02 8
-      - 🇺🇸 US
-      - 🇩🇪 德国
-      - 🇨🇦 加拿大
-      - 🇷🇺 俄罗斯
-      - 🇯🇵 日本
-      - 🇭🇰 香港5
-      - cm.stunnel.vip:4700
-      - 🇹🇼 tw.gotochinatown.net:10881
+      - CN_@baipiao02 6
+      - CN_@baipiao02 7
+      - CN_@baipiao02 8
+      - CA_@baipiao02
       - 🇦🇺 au.gotochinatown.net:10930
+      - 🇹🇼 tw.gotochinatown.net:10881
+      - 🇩🇪 de.gotochinatown.net:10887
       - 🇫🇷 fr.gotochinatown.net:10910
-      - 🇦🇺 au.gotochinatown.net:10930 2
-      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇬🇧 uk.gotochinatown.net:10882
+      - cm.stunnel.vip:4700
       - 🇮🇳 in.gotochinatown.net:10884
       - 🇨🇳 jpl.gotochinatown.net:10888#%%%%%%%%%%%%%%i
       - 🇨🇳 nz.gotochinatown.net:10920
-      - 🇩🇪 de.gotochinatown.net:10887
-      - 🇬🇧 uk.gotochinatown.net:10882
+      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇩🇪 德国
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
       - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
@@ -383,50 +388,51 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - CN_@baipiao02
+      - US_@baipiao02
+      - 🇺🇸 US
       - SG_@baipiao02
-      - IN_@baipiao02
-      - CN_@baipiao02 2
       - SG_@baipiao02 2
       - SG_@baipiao02 3
-      - CN_@baipiao02 3
-      - HK_@baipiao02
-      - HK_@baipiao02 2
       - SG_@baipiao02 4
       - JP_@baipiao02
-      - FR_@baipiao02
-      - HK_@baipiao02 3
-      - HK_@baipiao02 4
-      - FR_@baipiao02 2
-      - CN_@baipiao02 4
-      - HK_@baipiao02 5
       - JP_@baipiao02 2
-      - HK_@baipiao02 6
       - JP_@baipiao02 3
       - JP_@baipiao02 4
       - JP_@baipiao02 5
+      - IN_@baipiao02
+      - IN_@baipiao02 2
+      - IN_@baipiao02 3
+      - HK_@baipiao02
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - HK_@baipiao02 5
+      - HK_@baipiao02 6
+      - FR_@baipiao02
+      - FR_@baipiao02 2
+      - CN_@baipiao02
+      - CN_@baipiao02 2
+      - CN_@baipiao02 3
+      - CN_@baipiao02 4
       - CN_@baipiao02 5
-      - JP_@baipiao02 6
-      - JP_@baipiao02 7
-      - FR_@baipiao02 3
-      - JP_@baipiao02 8
-      - 🇺🇸 US
-      - 🇩🇪 德国
-      - 🇨🇦 加拿大
-      - 🇷🇺 俄罗斯
-      - 🇯🇵 日本
-      - 🇭🇰 香港5
-      - cm.stunnel.vip:4700
-      - 🇹🇼 tw.gotochinatown.net:10881
+      - CN_@baipiao02 6
+      - CN_@baipiao02 7
+      - CN_@baipiao02 8
+      - CA_@baipiao02
       - 🇦🇺 au.gotochinatown.net:10930
+      - 🇹🇼 tw.gotochinatown.net:10881
+      - 🇩🇪 de.gotochinatown.net:10887
       - 🇫🇷 fr.gotochinatown.net:10910
-      - 🇦🇺 au.gotochinatown.net:10930 2
-      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇬🇧 uk.gotochinatown.net:10882
+      - cm.stunnel.vip:4700
       - 🇮🇳 in.gotochinatown.net:10884
       - 🇨🇳 jpl.gotochinatown.net:10888#%%%%%%%%%%%%%%i
       - 🇨🇳 nz.gotochinatown.net:10920
-      - 🇩🇪 de.gotochinatown.net:10887
-      - 🇬🇧 uk.gotochinatown.net:10882
+      - 🇷🇺 ru.gotochinatown.net:10883
+      - 🇩🇪 德国
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大
+      - 🇯🇵 日本
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
       - 🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me
