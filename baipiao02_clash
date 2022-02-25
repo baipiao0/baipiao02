@@ -5,32 +5,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JP_@baipiao02, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: JP_@baipiao02 2, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
+  - {name: JP_@baipiao02, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
   - {name: SG_@baipiao02, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: false}
-  - {name: JP_@baipiao02 3, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: JP_@baipiao02 4, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
+  - {name: JP_@baipiao02 2, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
+  - {name: JP_@baipiao02 3, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
   - {name: SG_@baipiao02 2, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
   - {name: FR_@baipiao02, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: JP_@baipiao02 5, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: JP_@baipiao02 6, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
-  - {name: SG_@baipiao02 3, server: 4.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: false}
+  - {name: JP_@baipiao02 4, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
+  - {name: JP_@baipiao02 5, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
   - {name: FR_@baipiao02 2, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CN_@baipiao02, server: fc.jm.wokuaitule.xyz, port: 40012, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: fc.jm.wokuaitule.xyz}}}
-  - {name: HK_@baipiao02, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 44171, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
-  - {name: CN_@baipiao02 2, server: fc.st.wokuaitule.xyz, port: 40015, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: fc.st.wokuaitule.xyz}}}
-  - {name: CN_@baipiao02 3, server: fc.jm.wokuaitule.xyz, port: 40011, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: fc.jm.wokuaitule.xyz}}}
-  - {name: CN_@baipiao02 4, server: 183.240.181.20, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: t.me/vpnhat}
-  - {name: HK_@baipiao02 2, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 55899, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
-  - {name: HK_@baipiao02 3, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 63379, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
-  - {name: CA_@baipiao02, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: HK_@baipiao02 4, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 61690, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
-  - {name: HK_@baipiao02 5, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 27795, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
-  - {name: CN_@baipiao02 5, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
-  - {name: CN_@baipiao02 6, server: fc.gzbgp.wokuaitule.xyz, port: 10010, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: fc.gzbgp.wokuaitule.xyz}}}
-  - {name: HK_@baipiao02 6, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 60844, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}}
   - {name: US_@baipiao02, server: 20.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: false}
-  - {name: CA_@baipiao02 2, server: 134.195.196.150, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: JP_@baipiao02 6, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, skip-cert-verify: false}
+  - {name: JP_@baipiao02 7, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
   - {name: 🇦🇺 au.gotochinatown.net:10930, server: au.gotochinatown.net, port: 10930, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
   - {name: 🇹🇼 tw.gotochinatown.net:10881, server: tw.gotochinatown.net, port: 10881, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
   - {name: 🇩🇪 de.gotochinatown.net:10887, server: de.gotochinatown.net, port: 10887, type: http, username: 1002026295%40qq.com, password: 7fd23048-53e0-11eb-8684-f23c913c8d2b, tls: true, skip-cert-verify: false}
@@ -47,28 +33,28 @@ proxies:
   - {name: 🇯🇵 日本, server: 117.28.243.220, port: 8147, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: "🇭🇰 香港(中国)+🚀[极速稳定]", server: 122.9.54.131, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 33bdcd5a83fdd0c0fb3a5083868b05fe5b3f4f80a142889bb764e88882837048}
   - {name: "🇭🇰 香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e}
-  - {name: "🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me", server: 3.paopaoyun.xyz, port: 19103, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]② 广移中转新加坡", server: 4.paopaoyun.xyz, port: 19104, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]③ 江门中转日本", server: 5.paopaoyun.xyz, port: 19105, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]④ BGB中转日本", server: 6.paopaoyun.xyz, port: 19106, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑤ 广移中日本", server: 7.paopaoyun.xyz, port: 19107, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡", server: 8.paopaoyun.xyz, port: 19108, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑦ BGB中转日本", server: 9.paopaoyun.xyz, port: 19109, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑧ 电信中转日本", server: 10.paopaoyun.xyz, port: 19110, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡", server: 11.paopaoyun.xyz, port: 19111, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑩ BGB中转日本", server: 12.paopaoyun.xyz, port: 19112, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡", server: 13.paopaoyun.xyz, port: 19113, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑫ 电信中转日本", server: 14.paopaoyun.xyz, port: 19114, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡", server: 15.paopaoyun.xyz, port: 19115, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡", server: 16.paopaoyun.xyz, port: 19116, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑮ 广移中转日本", server: 17.paopaoyun.xyz, port: 19117, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑯ 广移中转日本", server: 18.paopaoyun.xyz, port: 19118, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑰ 江门中转日本", server: 19.paopaoyun.xyz, port: 19119, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]⑱ 江门中转日本", server: 20.paopaoyun.xyz, port: 19120, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡", server: 21.paopaoyun.xyz, port: 19121, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡", server: 22.paopaoyun.xyz, port: 19122, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 [Vip1][V2ray]㉑ 电信中转日本", server: 23.paopaoyun.xyz, port: 19123, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇺🇸 [Vip1][V2ray]㉒ 电信中转美国", server: 24.paopaoyun.xyz, port: 19124, type: vmess, uuid: b1c29b40-d358-3616-a763-dec14c2dd065, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]① 广移中转日本--域名：www.ppyun.me", server: 3.paopaoyun.xyz, port: 19103, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]② 广移中转新加坡", server: 4.paopaoyun.xyz, port: 19104, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]③ 江门中转日本", server: 5.paopaoyun.xyz, port: 19105, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]④ BGB中转日本", server: 6.paopaoyun.xyz, port: 19106, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑤ 广移中日本", server: 7.paopaoyun.xyz, port: 19107, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑥ 电信中转新加坡", server: 8.paopaoyun.xyz, port: 19108, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑦ BGB中转日本", server: 9.paopaoyun.xyz, port: 19109, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑧ 电信中转日本", server: 10.paopaoyun.xyz, port: 19110, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑨ 广移中转新加坡", server: 11.paopaoyun.xyz, port: 19111, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑩ BGB中转日本", server: 12.paopaoyun.xyz, port: 19112, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑪ 广移中转新加坡", server: 13.paopaoyun.xyz, port: 19113, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑫ 电信中转日本", server: 14.paopaoyun.xyz, port: 19114, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑬ 电信中转新加坡", server: 15.paopaoyun.xyz, port: 19115, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑭ 广移中转新加坡", server: 16.paopaoyun.xyz, port: 19116, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑮ 广移中转日本", server: 17.paopaoyun.xyz, port: 19117, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑯ 广移中转日本", server: 18.paopaoyun.xyz, port: 19118, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑰ 江门中转日本", server: 19.paopaoyun.xyz, port: 19119, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]⑱ 江门中转日本", server: 20.paopaoyun.xyz, port: 19120, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑲ 北京BGP中转新加坡", server: 21.paopaoyun.xyz, port: 19121, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 [Vip1][V2ray]⑳ 北京BGP中转新加坡", server: 22.paopaoyun.xyz, port: 19122, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇯🇵 [Vip1][V2ray]㉑ 电信中转日本", server: 23.paopaoyun.xyz, port: 19123, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇺🇸 [Vip1][V2ray]㉒ 电信中转美国", server: 24.paopaoyun.xyz, port: 19124, type: vmess, uuid: 6150717f-be46-30f6-a98a-4ee6ff9eb244, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -78,31 +64,17 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - JP_@baipiao02
-      - JP_@baipiao02 2
       - SG_@baipiao02
+      - JP_@baipiao02 2
       - JP_@baipiao02 3
-      - JP_@baipiao02 4
       - SG_@baipiao02 2
       - FR_@baipiao02
+      - JP_@baipiao02 4
       - JP_@baipiao02 5
-      - JP_@baipiao02 6
-      - SG_@baipiao02 3
       - FR_@baipiao02 2
-      - CN_@baipiao02
-      - HK_@baipiao02
-      - CN_@baipiao02 2
-      - CN_@baipiao02 3
-      - CN_@baipiao02 4
-      - HK_@baipiao02 2
-      - HK_@baipiao02 3
-      - CA_@baipiao02
-      - HK_@baipiao02 4
-      - HK_@baipiao02 5
-      - CN_@baipiao02 5
-      - CN_@baipiao02 6
-      - HK_@baipiao02 6
       - US_@baipiao02
-      - CA_@baipiao02 2
+      - JP_@baipiao02 6
+      - JP_@baipiao02 7
       - 🇦🇺 au.gotochinatown.net:10930
       - 🇹🇼 tw.gotochinatown.net:10881
       - 🇩🇪 de.gotochinatown.net:10887
@@ -147,31 +119,17 @@ proxy-groups:
     interval: 300
     proxies:
       - JP_@baipiao02
-      - JP_@baipiao02 2
       - SG_@baipiao02
+      - JP_@baipiao02 2
       - JP_@baipiao02 3
-      - JP_@baipiao02 4
       - SG_@baipiao02 2
       - FR_@baipiao02
+      - JP_@baipiao02 4
       - JP_@baipiao02 5
-      - JP_@baipiao02 6
-      - SG_@baipiao02 3
       - FR_@baipiao02 2
-      - CN_@baipiao02
-      - HK_@baipiao02
-      - CN_@baipiao02 2
-      - CN_@baipiao02 3
-      - CN_@baipiao02 4
-      - HK_@baipiao02 2
-      - HK_@baipiao02 3
-      - CA_@baipiao02
-      - HK_@baipiao02 4
-      - HK_@baipiao02 5
-      - CN_@baipiao02 5
-      - CN_@baipiao02 6
-      - HK_@baipiao02 6
       - US_@baipiao02
-      - CA_@baipiao02 2
+      - JP_@baipiao02 6
+      - JP_@baipiao02 7
       - 🇦🇺 au.gotochinatown.net:10930
       - 🇹🇼 tw.gotochinatown.net:10881
       - 🇩🇪 de.gotochinatown.net:10887
@@ -216,31 +174,17 @@ proxy-groups:
     interval: 180
     proxies:
       - JP_@baipiao02
-      - JP_@baipiao02 2
       - SG_@baipiao02
+      - JP_@baipiao02 2
       - JP_@baipiao02 3
-      - JP_@baipiao02 4
       - SG_@baipiao02 2
       - FR_@baipiao02
+      - JP_@baipiao02 4
       - JP_@baipiao02 5
-      - JP_@baipiao02 6
-      - SG_@baipiao02 3
       - FR_@baipiao02 2
-      - CN_@baipiao02
-      - HK_@baipiao02
-      - CN_@baipiao02 2
-      - CN_@baipiao02 3
-      - CN_@baipiao02 4
-      - HK_@baipiao02 2
-      - HK_@baipiao02 3
-      - CA_@baipiao02
-      - HK_@baipiao02 4
-      - HK_@baipiao02 5
-      - CN_@baipiao02 5
-      - CN_@baipiao02 6
-      - HK_@baipiao02 6
       - US_@baipiao02
-      - CA_@baipiao02 2
+      - JP_@baipiao02 6
+      - JP_@baipiao02 7
       - 🇦🇺 au.gotochinatown.net:10930
       - 🇹🇼 tw.gotochinatown.net:10881
       - 🇩🇪 de.gotochinatown.net:10887
@@ -286,31 +230,17 @@ proxy-groups:
     interval: 180
     proxies:
       - JP_@baipiao02
-      - JP_@baipiao02 2
       - SG_@baipiao02
+      - JP_@baipiao02 2
       - JP_@baipiao02 3
-      - JP_@baipiao02 4
       - SG_@baipiao02 2
       - FR_@baipiao02
+      - JP_@baipiao02 4
       - JP_@baipiao02 5
-      - JP_@baipiao02 6
-      - SG_@baipiao02 3
       - FR_@baipiao02 2
-      - CN_@baipiao02
-      - HK_@baipiao02
-      - CN_@baipiao02 2
-      - CN_@baipiao02 3
-      - CN_@baipiao02 4
-      - HK_@baipiao02 2
-      - HK_@baipiao02 3
-      - CA_@baipiao02
-      - HK_@baipiao02 4
-      - HK_@baipiao02 5
-      - CN_@baipiao02 5
-      - CN_@baipiao02 6
-      - HK_@baipiao02 6
       - US_@baipiao02
-      - CA_@baipiao02 2
+      - JP_@baipiao02 6
+      - JP_@baipiao02 7
       - 🇦🇺 au.gotochinatown.net:10930
       - 🇹🇼 tw.gotochinatown.net:10881
       - 🇩🇪 de.gotochinatown.net:10887
@@ -369,31 +299,17 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - JP_@baipiao02
-      - JP_@baipiao02 2
       - SG_@baipiao02
+      - JP_@baipiao02 2
       - JP_@baipiao02 3
-      - JP_@baipiao02 4
       - SG_@baipiao02 2
       - FR_@baipiao02
+      - JP_@baipiao02 4
       - JP_@baipiao02 5
-      - JP_@baipiao02 6
-      - SG_@baipiao02 3
       - FR_@baipiao02 2
-      - CN_@baipiao02
-      - HK_@baipiao02
-      - CN_@baipiao02 2
-      - CN_@baipiao02 3
-      - CN_@baipiao02 4
-      - HK_@baipiao02 2
-      - HK_@baipiao02 3
-      - CA_@baipiao02
-      - HK_@baipiao02 4
-      - HK_@baipiao02 5
-      - CN_@baipiao02 5
-      - CN_@baipiao02 6
-      - HK_@baipiao02 6
       - US_@baipiao02
-      - CA_@baipiao02 2
+      - JP_@baipiao02 6
+      - JP_@baipiao02 7
       - 🇦🇺 au.gotochinatown.net:10930
       - 🇹🇼 tw.gotochinatown.net:10881
       - 🇩🇪 de.gotochinatown.net:10887
