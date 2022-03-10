@@ -5,60 +5,73 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_@baipiao02, server: 119.147.2.248, port: 50581, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 119.147.2.248}}}
-  - {name: "@baipiao02", server: de.oracleusa.ml, port: 443, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de.oracleusa.ml}}}
-  - {name: GB_@baipiao02, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_@baipiao02, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sw.gfwglass.tk}}}
-  - {name: CN_@baipiao02 2, server: g3.gs1024.com, port: 21225, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: US_@baipiao02 2, server: 39.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: false}
-  - {name: US_@baipiao02 3, server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
-  - {name: CA_@baipiao02, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CN_@baipiao02 3, server: jp.gs1024.com, port: 21229, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: US_@baipiao02 4, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gongyisg1.yigeweizhuang.com}}}
-  - {name: AE_@baipiao02, server: uae.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uae.oracleusa.ml}}}
-  - {name: US_@baipiao02 5, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: caf379cf-30d5-4cbc-9126-49ff279f4a60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: usa.oracleusa.ml}}}
-  - {name: CA_@baipiao02 2, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CN_@baipiao02, server: g3.gs1024.com, port: 21225, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: US_@baipiao02, server: 39.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: false}
+  - {name: US_@baipiao02 2, server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
   - {name: DE_@baipiao02, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: GB_@baipiao02 2, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CA_@baipiao02 3, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_@baipiao02 6, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ru.oracleusa.ml}}}
-  - {name: CA_@baipiao02 4, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CA_@baipiao02 5, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CN_@baipiao02 4, server: g9.gs1024.com, port: 61233, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: CN_@baipiao02 5, server: g9.gs1024.com, port: 21223, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: CN_@baipiao02 6, server: g3.gs1024.com, port: 21224, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: US_@baipiao02 7, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: 928d2df4-6c5e-4274-9af4-b2769ea9dd96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: usa.oracleusa.ml}}}
-  - {name: US_@baipiao02 8, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9apQabyg9le, headers: {Host: 209.94.56.152}}}
-  - {name: CA_@baipiao02 6, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_@baipiao02 9, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9apQabyg9le, headers: {Host: 209.94.56.152}}}
-  - {name: CN_@baipiao02 7, server: iplc.gs1024.com, port: 20227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: US_@baipiao02 10, server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_@baipiao02 11, server: 38.143.66.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CA_@baipiao02 7, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CN_@baipiao02 8, server: g3.gs1024.com, port: 21227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: CA_@baipiao02 8, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CA_@baipiao02, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: CN_@baipiao02 2, server: g9.gs1024.com, port: 61233, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CN_@baipiao02 3, server: g3.gs1024.com, port: 21224, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: US_@baipiao02 3, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9apQabyg9le, headers: {Host: 209.94.56.152}}}
+  - {name: CA_@baipiao02 2, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: CN_@baipiao02 4, server: iplc.gs1024.com, port: 20227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CA_@baipiao02 3, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: CN_@baipiao02 5, server: g3.gs1024.com, port: 21227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
   - {name: SG_@baipiao02, server: 139.162.29.186, port: 54869, type: trojan, password: HqNAQ9UBJN, skip-cert-verify: false}
-  - {name: SG_@baipiao02 2, server: 139.162.29.186, port: 54869, type: trojan, password: HqNAQ9UBJN, skip-cert-verify: false}
-  - {name: JP_@baipiao02, server: 139.162.67.80, port: 8443, type: trojan, password: Freebaipiao666, skip-cert-verify: false}
-  - {name: CN_@baipiao02 9, server: jp.gs1024.com, port: 21231, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: CN_@baipiao02 10, server: 61.49.23.82, port: 10369, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 61.49.23.82}}}
-  - {name: CA_@baipiao02 9, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CN_@baipiao02 11, server: g3.gs1024.com, port: 21228, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: CN_@baipiao02 12, server: 116.162.14.197, port: 63152, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 116.162.14.197}}}
-  - {name: US_@baipiao02 12, server: awsmx.xiaomai.my03.com, port: 11051, type: vmess, uuid: 88708134-0fc1-444f-ae1d-1c11433dadf3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /freebaipiao, headers: {Host: awsmx.xiaomai.my03.com}}}
-  - {name: CA_@baipiao02 10, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: AE_@baipiao02 2, server: bi.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bi.oracleusa.ml}}}
-  - {name: CA_@baipiao02 11, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CN_@baipiao02 6, server: jp.gs1024.com, port: 21231, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CA_@baipiao02 4, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CN_@baipiao02 7, server: g3.gs1024.com, port: 21228, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CA_@baipiao02 5, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: DE_@baipiao02 2, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: US_@baipiao02 13, server: 142.202.48.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CN_@baipiao02 13, server: g6.gs1024.com, port: 61232, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: US_@baipiao02 14, server: usaarm1.oracleusa.ml, port: 980, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: usaarm1.oracleusa.ml}}}
-  - {name: AU_@baipiao02, server: 172.105.187.158, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CA_@baipiao02 12, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CN_@baipiao02 14, server: jp.gs1024.com, port: 21230, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
-  - {name: CA_@baipiao02 13, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CH_@baipiao02, server: sw.oracleusa.ml, port: 2053, type: vmess, uuid: 36b01b78-29b2-46c8-a79b-4498dee25396, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sw.oracleusa.ml}}}
-  - {name: GB_@baipiao02 3, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CN_@baipiao02 8, server: g6.gs1024.com, port: 61232, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CN_@baipiao02 9, server: 183.240.132.27, port: 20227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CN_@baipiao02 10, server: 120.232.192.115, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: TW_@baipiao02, server: 60.249.3.231, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: CN_@baipiao02 11, server: 117.185.229.24, port: 21231, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CN_@baipiao02 12, server: 116.129.253.201, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: HK_@baipiao02, server: 104.208.112.171, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 13, server: 112.15.9.146, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 14, server: 101.67.8.178, port: 61232, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CN_@baipiao02 15, server: 116.129.253.201, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: CN_@baipiao02 16, server: 106.75.233.91, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 17, server: 117.185.229.24, port: 61233, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: HK_@baipiao02 2, server: 13.70.31.16, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 18, server: 123.59.87.29, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: US_@baipiao02 4, server: 20.89.238.230, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: CN_@baipiao02 19, server: 123.59.87.29, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: TW_@baipiao02 2, server: 60.249.3.231, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 20, server: 123.59.72.193, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 21, server: 123.59.72.193, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: CN_@baipiao02 22, server: 116.129.253.227, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 23, server: 117.185.229.24, port: 20227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: TW_@baipiao02 3, server: 60.249.3.226, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: US_@baipiao02 5, server: 185.218.6.227, port: 443, type: trojan, password: vIl4ReBJj7, skip-cert-verify: false}
+  - {name: CN_@baipiao02 24, server: 106.75.154.24, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: CN_@baipiao02 25, server: 106.75.154.24, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: IN_@baipiao02, server: 172.105.59.32, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CN_@baipiao02 26, server: 112.15.9.146, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: CN_@baipiao02 27, server: 116.129.253.227, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: CN_@baipiao02 28, server: 116.129.253.191, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: DE_@baipiao02 3, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: CN_@baipiao02 29, server: 116.129.253.191, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 30, server: 116.129.253.177, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 31, server: 116.129.253.187, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 32, server: 117.185.229.24, port: 21224, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: US_@baipiao02 6, server: 20.89.238.230, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: CN_@baipiao02 33, server: 116.129.253.245, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: JP_@baipiao02, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 172.105.222.98}}}
+  - {name: SG_@baipiao02 2, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: "@baipiao02", server: 103.172.116.113, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: CH_@baipiao02, server: sw.oracleusa.ml, port: 2053, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sw.oracleusa.ml}}}
+  - {name: US_@baipiao02 7, server: www.seetheworldjp.ga, port: 443, type: trojan, password: f42e1a2e-e650-44f4-8d17-bcb68663da18, skip-cert-verify: false}
+  - {name: "@baipiao02 2", server: 103.172.116.113, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: false}
+  - {name: "@baipiao02 3", server: gongyijp2.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gongyijp2.yigeweizhuang.com}}}
+  - {name: CN_@baipiao02 34, server: 183.240.132.27, port: 21227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CN_@baipiao02 35, server: 117.185.229.24, port: 21227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CN_@baipiao02 36, server: 183.240.132.27, port: 21223, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: false}
+  - {name: CN_@baipiao02 37, server: ppy-cn1.ddnsnode.com, port: 26010, type: vmess, uuid: 6d4e5eb4-3e33-369c-8791-30ea8d08e298, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_@baipiao02 38, server: 106.75.233.91, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: CN_@baipiao02 39, server: 117.50.106.86, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
   - {name: "🇭🇰 香港(中国)+🚀[极速稳定]", server: 122.9.54.131, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 33bdcd5a83fdd0c0fb3a5083868b05fe5b3f4f80a142889bb764e88882837048}
   - {name: "🇭🇰 香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e}
 proxy-groups:
@@ -68,59 +81,72 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - CN_@baipiao02
-      - "@baipiao02"
-      - GB_@baipiao02
       - US_@baipiao02
-      - CN_@baipiao02 2
       - US_@baipiao02 2
-      - US_@baipiao02 3
-      - CA_@baipiao02
-      - CN_@baipiao02 3
-      - US_@baipiao02 4
-      - AE_@baipiao02
-      - US_@baipiao02 5
-      - CA_@baipiao02 2
       - DE_@baipiao02
-      - GB_@baipiao02 2
-      - CA_@baipiao02 3
-      - US_@baipiao02 6
-      - CA_@baipiao02 4
-      - CA_@baipiao02 5
+      - CA_@baipiao02
+      - CN_@baipiao02 2
+      - CN_@baipiao02 3
+      - US_@baipiao02 3
+      - CA_@baipiao02 2
       - CN_@baipiao02 4
+      - CA_@baipiao02 3
       - CN_@baipiao02 5
-      - CN_@baipiao02 6
-      - US_@baipiao02 7
-      - US_@baipiao02 8
-      - CA_@baipiao02 6
-      - US_@baipiao02 9
-      - CN_@baipiao02 7
-      - US_@baipiao02 10
-      - US_@baipiao02 11
-      - CA_@baipiao02 7
-      - CN_@baipiao02 8
-      - CA_@baipiao02 8
       - SG_@baipiao02
-      - SG_@baipiao02 2
-      - JP_@baipiao02
+      - CN_@baipiao02 6
+      - CA_@baipiao02 4
+      - CN_@baipiao02 7
+      - CA_@baipiao02 5
+      - DE_@baipiao02 2
+      - CN_@baipiao02 8
       - CN_@baipiao02 9
       - CN_@baipiao02 10
-      - CA_@baipiao02 9
+      - TW_@baipiao02
       - CN_@baipiao02 11
       - CN_@baipiao02 12
-      - US_@baipiao02 12
-      - CA_@baipiao02 10
-      - AE_@baipiao02 2
-      - CA_@baipiao02 11
-      - DE_@baipiao02 2
-      - US_@baipiao02 13
+      - HK_@baipiao02
       - CN_@baipiao02 13
-      - US_@baipiao02 14
-      - AU_@baipiao02
-      - CA_@baipiao02 12
       - CN_@baipiao02 14
-      - CA_@baipiao02 13
+      - CN_@baipiao02 15
+      - CN_@baipiao02 16
+      - CN_@baipiao02 17
+      - HK_@baipiao02 2
+      - CN_@baipiao02 18
+      - US_@baipiao02 4
+      - CN_@baipiao02 19
+      - TW_@baipiao02 2
+      - CN_@baipiao02 20
+      - CN_@baipiao02 21
+      - CN_@baipiao02 22
+      - CN_@baipiao02 23
+      - TW_@baipiao02 3
+      - US_@baipiao02 5
+      - CN_@baipiao02 24
+      - CN_@baipiao02 25
+      - IN_@baipiao02
+      - CN_@baipiao02 26
+      - CN_@baipiao02 27
+      - CN_@baipiao02 28
+      - DE_@baipiao02 3
+      - CN_@baipiao02 29
+      - CN_@baipiao02 30
+      - CN_@baipiao02 31
+      - CN_@baipiao02 32
+      - US_@baipiao02 6
+      - CN_@baipiao02 33
+      - JP_@baipiao02
+      - SG_@baipiao02 2
+      - "@baipiao02"
       - CH_@baipiao02
-      - GB_@baipiao02 3
+      - US_@baipiao02 7
+      - "@baipiao02 2"
+      - "@baipiao02 3"
+      - CN_@baipiao02 34
+      - CN_@baipiao02 35
+      - CN_@baipiao02 36
+      - CN_@baipiao02 37
+      - CN_@baipiao02 38
+      - CN_@baipiao02 39
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: ♻️ 自动选择
@@ -129,59 +155,72 @@ proxy-groups:
     interval: 300
     proxies:
       - CN_@baipiao02
-      - "@baipiao02"
-      - GB_@baipiao02
       - US_@baipiao02
-      - CN_@baipiao02 2
       - US_@baipiao02 2
-      - US_@baipiao02 3
-      - CA_@baipiao02
-      - CN_@baipiao02 3
-      - US_@baipiao02 4
-      - AE_@baipiao02
-      - US_@baipiao02 5
-      - CA_@baipiao02 2
       - DE_@baipiao02
-      - GB_@baipiao02 2
-      - CA_@baipiao02 3
-      - US_@baipiao02 6
-      - CA_@baipiao02 4
-      - CA_@baipiao02 5
+      - CA_@baipiao02
+      - CN_@baipiao02 2
+      - CN_@baipiao02 3
+      - US_@baipiao02 3
+      - CA_@baipiao02 2
       - CN_@baipiao02 4
+      - CA_@baipiao02 3
       - CN_@baipiao02 5
-      - CN_@baipiao02 6
-      - US_@baipiao02 7
-      - US_@baipiao02 8
-      - CA_@baipiao02 6
-      - US_@baipiao02 9
-      - CN_@baipiao02 7
-      - US_@baipiao02 10
-      - US_@baipiao02 11
-      - CA_@baipiao02 7
-      - CN_@baipiao02 8
-      - CA_@baipiao02 8
       - SG_@baipiao02
-      - SG_@baipiao02 2
-      - JP_@baipiao02
+      - CN_@baipiao02 6
+      - CA_@baipiao02 4
+      - CN_@baipiao02 7
+      - CA_@baipiao02 5
+      - DE_@baipiao02 2
+      - CN_@baipiao02 8
       - CN_@baipiao02 9
       - CN_@baipiao02 10
-      - CA_@baipiao02 9
+      - TW_@baipiao02
       - CN_@baipiao02 11
       - CN_@baipiao02 12
-      - US_@baipiao02 12
-      - CA_@baipiao02 10
-      - AE_@baipiao02 2
-      - CA_@baipiao02 11
-      - DE_@baipiao02 2
-      - US_@baipiao02 13
+      - HK_@baipiao02
       - CN_@baipiao02 13
-      - US_@baipiao02 14
-      - AU_@baipiao02
-      - CA_@baipiao02 12
       - CN_@baipiao02 14
-      - CA_@baipiao02 13
+      - CN_@baipiao02 15
+      - CN_@baipiao02 16
+      - CN_@baipiao02 17
+      - HK_@baipiao02 2
+      - CN_@baipiao02 18
+      - US_@baipiao02 4
+      - CN_@baipiao02 19
+      - TW_@baipiao02 2
+      - CN_@baipiao02 20
+      - CN_@baipiao02 21
+      - CN_@baipiao02 22
+      - CN_@baipiao02 23
+      - TW_@baipiao02 3
+      - US_@baipiao02 5
+      - CN_@baipiao02 24
+      - CN_@baipiao02 25
+      - IN_@baipiao02
+      - CN_@baipiao02 26
+      - CN_@baipiao02 27
+      - CN_@baipiao02 28
+      - DE_@baipiao02 3
+      - CN_@baipiao02 29
+      - CN_@baipiao02 30
+      - CN_@baipiao02 31
+      - CN_@baipiao02 32
+      - US_@baipiao02 6
+      - CN_@baipiao02 33
+      - JP_@baipiao02
+      - SG_@baipiao02 2
+      - "@baipiao02"
       - CH_@baipiao02
-      - GB_@baipiao02 3
+      - US_@baipiao02 7
+      - "@baipiao02 2"
+      - "@baipiao02 3"
+      - CN_@baipiao02 34
+      - CN_@baipiao02 35
+      - CN_@baipiao02 36
+      - CN_@baipiao02 37
+      - CN_@baipiao02 38
+      - CN_@baipiao02 39
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: 🎯 全球直连
@@ -202,59 +241,72 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - CN_@baipiao02
-      - "@baipiao02"
-      - GB_@baipiao02
       - US_@baipiao02
-      - CN_@baipiao02 2
       - US_@baipiao02 2
-      - US_@baipiao02 3
-      - CA_@baipiao02
-      - CN_@baipiao02 3
-      - US_@baipiao02 4
-      - AE_@baipiao02
-      - US_@baipiao02 5
-      - CA_@baipiao02 2
       - DE_@baipiao02
-      - GB_@baipiao02 2
-      - CA_@baipiao02 3
-      - US_@baipiao02 6
-      - CA_@baipiao02 4
-      - CA_@baipiao02 5
+      - CA_@baipiao02
+      - CN_@baipiao02 2
+      - CN_@baipiao02 3
+      - US_@baipiao02 3
+      - CA_@baipiao02 2
       - CN_@baipiao02 4
+      - CA_@baipiao02 3
       - CN_@baipiao02 5
-      - CN_@baipiao02 6
-      - US_@baipiao02 7
-      - US_@baipiao02 8
-      - CA_@baipiao02 6
-      - US_@baipiao02 9
-      - CN_@baipiao02 7
-      - US_@baipiao02 10
-      - US_@baipiao02 11
-      - CA_@baipiao02 7
-      - CN_@baipiao02 8
-      - CA_@baipiao02 8
       - SG_@baipiao02
-      - SG_@baipiao02 2
-      - JP_@baipiao02
+      - CN_@baipiao02 6
+      - CA_@baipiao02 4
+      - CN_@baipiao02 7
+      - CA_@baipiao02 5
+      - DE_@baipiao02 2
+      - CN_@baipiao02 8
       - CN_@baipiao02 9
       - CN_@baipiao02 10
-      - CA_@baipiao02 9
+      - TW_@baipiao02
       - CN_@baipiao02 11
       - CN_@baipiao02 12
-      - US_@baipiao02 12
-      - CA_@baipiao02 10
-      - AE_@baipiao02 2
-      - CA_@baipiao02 11
-      - DE_@baipiao02 2
-      - US_@baipiao02 13
+      - HK_@baipiao02
       - CN_@baipiao02 13
-      - US_@baipiao02 14
-      - AU_@baipiao02
-      - CA_@baipiao02 12
       - CN_@baipiao02 14
-      - CA_@baipiao02 13
+      - CN_@baipiao02 15
+      - CN_@baipiao02 16
+      - CN_@baipiao02 17
+      - HK_@baipiao02 2
+      - CN_@baipiao02 18
+      - US_@baipiao02 4
+      - CN_@baipiao02 19
+      - TW_@baipiao02 2
+      - CN_@baipiao02 20
+      - CN_@baipiao02 21
+      - CN_@baipiao02 22
+      - CN_@baipiao02 23
+      - TW_@baipiao02 3
+      - US_@baipiao02 5
+      - CN_@baipiao02 24
+      - CN_@baipiao02 25
+      - IN_@baipiao02
+      - CN_@baipiao02 26
+      - CN_@baipiao02 27
+      - CN_@baipiao02 28
+      - DE_@baipiao02 3
+      - CN_@baipiao02 29
+      - CN_@baipiao02 30
+      - CN_@baipiao02 31
+      - CN_@baipiao02 32
+      - US_@baipiao02 6
+      - CN_@baipiao02 33
+      - JP_@baipiao02
+      - SG_@baipiao02 2
+      - "@baipiao02"
       - CH_@baipiao02
-      - GB_@baipiao02 3
+      - US_@baipiao02 7
+      - "@baipiao02 2"
+      - "@baipiao02 3"
+      - CN_@baipiao02 34
+      - CN_@baipiao02 35
+      - CN_@baipiao02 36
+      - CN_@baipiao02 37
+      - CN_@baipiao02 38
+      - CN_@baipiao02 39
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
 rules:
@@ -273,6 +325,8 @@ rules:
  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
  - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+ - DOMAIN,instant.arubanetworks.com,🎯 全球直连
+ - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
  - DOMAIN,router.asus.com,🎯 全球直连
  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
@@ -281,10 +335,10 @@ rules:
  - DOMAIN-SUFFIX,p.to,🎯 全球直连
  - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
  - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+ - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
@@ -2186,6 +2240,7 @@ rules:
  - DOMAIN-SUFFIX,2f0jlqc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2g2h.com,🛑 全球拦截
  - DOMAIN-SUFFIX,2gmbbl.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,2gustis.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,2gvuukm1lm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,2gz9nc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2hukaixi.xyz,🛑 全球拦截
@@ -2296,6 +2351,7 @@ rules:
  - DOMAIN-SUFFIX,47api.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,4excel.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,4ggame8.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,4go.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,4gustis.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,4htixb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,4kfv18.cn,🛑 全球拦截
@@ -2332,6 +2388,7 @@ rules:
  - DOMAIN-SUFFIX,51gxqm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,51jumintong.com,🛑 全球拦截
  - DOMAIN-SUFFIX,51lx.ink,🛑 全球拦截
+ - DOMAIN-SUFFIX,51niu.pro,🛑 全球拦截
  - DOMAIN-SUFFIX,51roadway.com,🛑 全球拦截
  - DOMAIN-SUFFIX,51showmy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,51sxzz.com,🛑 全球拦截
@@ -2503,6 +2560,7 @@ rules:
  - DOMAIN-SUFFIX,8881919.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,888888888888.online,🛑 全球拦截
  - DOMAIN-SUFFIX,88888888vip.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,8889888.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,888lianmeng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,88eg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,88rpg.net,🛑 全球拦截
@@ -2810,6 +2868,7 @@ rules:
  - DOMAIN-SUFFIX,aftdt.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ag1.zuszw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,agathaedith.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,agathazanna.com,🛑 全球拦截
  - DOMAIN-SUFFIX,agilehw.online,🛑 全球拦截
  - DOMAIN-SUFFIX,agjy6.com,🛑 全球拦截
  - DOMAIN-SUFFIX,agnezanna.com,🛑 全球拦截
@@ -2991,6 +3050,7 @@ rules:
  - DOMAIN-SUFFIX,atiws.aipai.com,🛑 全球拦截
  - DOMAIN-SUFFIX,atmib.com,🛑 全球拦截
  - DOMAIN-SUFFIX,atomicfile.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,attempted.wang,🛑 全球拦截
  - DOMAIN-SUFFIX,atuehome.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,audit8.com,🛑 全球拦截
  - DOMAIN-SUFFIX,auogiv.cn,🛑 全球拦截
@@ -3107,6 +3167,7 @@ rules:
  - DOMAIN-SUFFIX,bang8.org.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bangbang521.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bangdu2.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,banggongxia.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,bangxin.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,banhfw.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,banht.com,🛑 全球拦截
@@ -3148,9 +3209,11 @@ rules:
  - DOMAIN-SUFFIX,bayil.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,baymax.video,🛑 全球拦截
  - DOMAIN-SUFFIX,bayno.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,bazinga12138.online,🛑 全球拦截
  - DOMAIN-SUFFIX,bbbazlp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bbbx.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,bbdsdy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,bbgs888.top,🛑 全球拦截
  - DOMAIN-SUFFIX,bbsg.club,🛑 全球拦截
  - DOMAIN-SUFFIX,bbttkk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bbtys.net,🛑 全球拦截
@@ -3436,6 +3499,7 @@ rules:
  - DOMAIN-SUFFIX,buyuninfo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,buzx53.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bv8888.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,bvuuv.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bwdhuanbao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bx9000.top,🛑 全球拦截
  - DOMAIN-SUFFIX,bxgz.cc,🛑 全球拦截
@@ -3571,6 +3635,7 @@ rules:
  - DOMAIN-SUFFIX,chendjiangxing.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,chengdahdf.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,chengduyiren.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,chenghe.store,🛑 全球拦截
  - DOMAIN-SUFFIX,chengjunjie.top,🛑 全球拦截
  - DOMAIN-SUFFIX,chengzhonghuxin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chengzilte.top,🛑 全球拦截
@@ -3619,6 +3684,7 @@ rules:
  - DOMAIN-SUFFIX,chuzrra.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,chuzushijian.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,chy365.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,chyfkf.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,cike666.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cilxili.top,🛑 全球拦截
  - DOMAIN-SUFFIX,city009.com,🛑 全球拦截
@@ -3696,6 +3762,7 @@ rules:
  - DOMAIN-SUFFIX,comberry.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,comekang.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,concd.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,concocting.wang,🛑 全球拦截
  - DOMAIN-SUFFIX,continuedsys.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,continuefaf.top,🛑 全球拦截
  - DOMAIN-SUFFIX,coolbook.cc,🛑 全球拦截
@@ -3722,6 +3789,7 @@ rules:
  - DOMAIN-SUFFIX,cqerbihou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cqfangduan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cqftonline.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,cqfygc.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,cqgya.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cqhot.club,🛑 全球拦截
  - DOMAIN-SUFFIX,cqjjlsy.com,🛑 全球拦截
@@ -3910,6 +3978,7 @@ rules:
  - DOMAIN-SUFFIX,dd3d.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,ddanq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dddyun.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ddeyi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ddg1277.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ddhtek.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ddomm.com,🛑 全球拦截
@@ -3940,6 +4009,7 @@ rules:
  - DOMAIN-SUFFIX,dgaoz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dgbaozhuang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dgchengyu.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,dgjjkkla.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dglscm.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dgmjskjx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dgtauto.com,🛑 全球拦截
@@ -3962,6 +4032,7 @@ rules:
  - DOMAIN-SUFFIX,dibaiweiai.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dibyc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dietfd.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,dikematou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dilidd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dingdian.shop,🛑 全球拦截
  - DOMAIN-SUFFIX,ditaow.cn,🛑 全球拦截
@@ -3991,6 +4062,7 @@ rules:
  - DOMAIN-SUFFIX,dltenjy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dlvjmr.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dlxgm.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,dlxxjsh.top,🛑 全球拦截
  - DOMAIN-SUFFIX,dlyukun.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dlzjdesign.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dlzxjk.cn,🛑 全球拦截
@@ -4013,6 +4085,7 @@ rules:
  - DOMAIN-SUFFIX,dm.sg92.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dm.taobaojuhuasuan.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dm.wenshenxiu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,dm.zjut.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,dm.zuowenku.net,🛑 全球拦截
  - DOMAIN-SUFFIX,dm1.ddwk8.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dm1.guanwawa.com,🛑 全球拦截
@@ -4051,6 +4124,7 @@ rules:
  - DOMAIN-SUFFIX,downcdn.top,🛑 全球拦截
  - DOMAIN-SUFFIX,dpbyc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dpjszs.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,dqcztxmu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dqsft.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dragoncent.com,🛑 全球拦截
  - DOMAIN-SUFFIX,drawenjoy.cn,🛑 全球拦截
@@ -4182,9 +4256,11 @@ rules:
  - DOMAIN-SUFFIX,elvfdnj.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,elvirahedwig.com,🛑 全球拦截
  - DOMAIN-SUFFIX,elvx.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,emcoper.com,🛑 全球拦截
  - DOMAIN-SUFFIX,emdcadvertise.eastmoney.com,🛑 全球拦截
  - DOMAIN-SUFFIX,emgwq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,emjs.mkzhan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,emotionally.wang,🛑 全球拦截
  - DOMAIN-SUFFIX,enennsa.gushiwen.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,enews10.yxlady.net,🛑 全球拦截
  - DOMAIN-SUFFIX,engpeng.cn,🛑 全球拦截
@@ -4258,6 +4334,7 @@ rules:
  - DOMAIN-SUFFIX,fafafa1.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fajuer.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,family-joy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,fanchuangyi.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,fanghua2.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fangjieshi.club,🛑 全球拦截
  - DOMAIN-SUFFIX,fangjslc.com,🛑 全球拦截
@@ -4292,6 +4369,7 @@ rules:
  - DOMAIN-SUFFIX,feizailin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fengchedaomall.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fenggejiaju.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,fengmian.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,fengmishop.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fengousm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fengspw.xyz,🛑 全球拦截
@@ -4317,6 +4395,7 @@ rules:
  - DOMAIN-SUFFIX,fhlong2000.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,fhnhkt.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fhthkz.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,fighsfg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fileinput.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,fintechpi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,first11.cn,🛑 全球拦截
@@ -4345,6 +4424,7 @@ rules:
  - DOMAIN-SUFFIX,flmcju.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,flowcodeapp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,flydog.club,🛑 全球拦截
+ - DOMAIN-SUFFIX,flyleaf.biz,🛑 全球拦截
  - DOMAIN-SUFFIX,flyly.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,fmketang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fnbocll.cn,🛑 全球拦截
@@ -4402,6 +4482,7 @@ rules:
  - DOMAIN-SUFFIX,fun.ynet.com,🛑 全球拦截
  - DOMAIN-SUFFIX,funlove.pw,🛑 全球拦截
  - DOMAIN-SUFFIX,funnyweb.fun,🛑 全球拦截
+ - DOMAIN-SUFFIX,fuoo1.top,🛑 全球拦截
  - DOMAIN-SUFFIX,fuqifyb.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,furenyanfa.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,furongcloud.email,🛑 全球拦截
@@ -4431,6 +4512,7 @@ rules:
  - DOMAIN-SUFFIX,fxyjmp.top,🛑 全球拦截
  - DOMAIN-SUFFIX,fy4zb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fyan.tech,🛑 全球拦截
+ - DOMAIN-SUFFIX,fydckl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fyesqma.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fyijt.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fyjyhm.com,🛑 全球拦截
@@ -4472,6 +4554,7 @@ rules:
  - DOMAIN-SUFFIX,gaobata.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gaojiedesign.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gaomingbo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,gaozhuang.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,garacy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gars57.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gasxf.com,🛑 全球拦截
@@ -4780,12 +4863,14 @@ rules:
  - DOMAIN-SUFFIX,haohuisheng555.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,haoinn.top,🛑 全球拦截
  - DOMAIN-SUFFIX,haojun.info,🛑 全球拦截
+ - DOMAIN-SUFFIX,haojun.shop,🛑 全球拦截
  - DOMAIN-SUFFIX,haokan3.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,haolew.com,🛑 全球拦截
  - DOMAIN-SUFFIX,haomaiweb.com,🛑 全球拦截
  - DOMAIN-SUFFIX,haomaojin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,haosdhc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,haoweb.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,haoyongdm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,haoyundm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,haoyundmn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,haoyundmtaotao.com,🛑 全球拦截
@@ -4835,6 +4920,7 @@ rules:
  - DOMAIN-SUFFIX,hdc.maxli.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hdfdm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hdherpc.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,hdjlkj.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,hdjxmf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hdkal67.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hdketang.cn,🛑 全球拦截
@@ -4908,6 +4994,7 @@ rules:
  - DOMAIN-SUFFIX,hissq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hivecn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hixili.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,hjgd.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,hjjnpx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hjl0618.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hjqsyyy.com,🛑 全球拦截
@@ -4967,6 +5054,7 @@ rules:
  - DOMAIN-SUFFIX,hnxahz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hnxbls.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hnxinkejg.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,hnycwh.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hnyczs.club,🛑 全球拦截
  - DOMAIN-SUFFIX,hnyishidengbao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hnylb8.cn,🛑 全球拦截
@@ -5014,6 +5102,7 @@ rules:
  - DOMAIN-SUFFIX,hriycvg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hrjskj.top,🛑 全球拦截
  - DOMAIN-SUFFIX,hrrrzwz.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,hryidhf.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,hsbkr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hsdianqi.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,hskj.net,🛑 全球拦截
@@ -5062,6 +5151,7 @@ rules:
  - DOMAIN-SUFFIX,huishangjituan.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,huishij.net,🛑 全球拦截
  - DOMAIN-SUFFIX,huitiankuaiji.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,huixianjiaoyuedu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,huixingcheng.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,huiyef.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,huiyutz.cn,🛑 全球拦截
@@ -5085,6 +5175,7 @@ rules:
  - DOMAIN-SUFFIX,hurom365.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hushenqiquan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,huyc.info,🛑 全球拦截
+ - DOMAIN-SUFFIX,huzalor.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,huzhu.group,🛑 全球拦截
  - DOMAIN-SUFFIX,hvzlgyi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hw6.com,🛑 全球拦截
@@ -5257,6 +5348,7 @@ rules:
  - DOMAIN-SUFFIX,irzwlux.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iscreen.top,🛑 全球拦截
  - DOMAIN-SUFFIX,isgow.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ishanggao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ishowms.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ishuoshuo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,isles.cn,🛑 全球拦截
@@ -5277,6 +5369,7 @@ rules:
  - DOMAIN-SUFFIX,iwucoz.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iwwl.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,ixiang.club,🛑 全球拦截
+ - DOMAIN-SUFFIX,ixmlusc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iynmloa.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iyodoctor.com,🛑 全球拦截
  - DOMAIN-SUFFIX,iyouhu.cn,🛑 全球拦截
@@ -5331,6 +5424,7 @@ rules:
  - DOMAIN-SUFFIX,jdxq.club,🛑 全球拦截
  - DOMAIN-SUFFIX,jdyz3.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jdzlxtc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jeason.club,🛑 全球拦截
  - DOMAIN-SUFFIX,jehudf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jenniferlaurax.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jessicalaurax.com,🛑 全球拦截
@@ -5502,6 +5596,7 @@ rules:
  - DOMAIN-SUFFIX,jogbxpg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,johtzj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,joinbrand.club,🛑 全球拦截
+ - DOMAIN-SUFFIX,joizzxo.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,joker6.fun,🛑 全球拦截
  - DOMAIN-SUFFIX,jollyspring.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jotrening.com,🛑 全球拦截
@@ -5779,6 +5874,7 @@ rules:
  - DOMAIN-SUFFIX,ks67.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ksdr.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,ksvftk.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ksxb.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,ksxcxb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kszhmzp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kt220.com,🛑 全球拦截
@@ -5824,11 +5920,13 @@ rules:
  - DOMAIN-SUFFIX,l570mb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ladybugsweb.site,🛑 全球拦截
  - DOMAIN-SUFFIX,ladyye.site,🛑 全球拦截
+ - DOMAIN-SUFFIX,lafrjs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lahair.biz,🛑 全球拦截
  - DOMAIN-SUFFIX,laifu365.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lailer.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,laiyangalibaba.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,laiye315.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,lajimeiguo.top,🛑 全球拦截
  - DOMAIN-SUFFIX,lalaaal.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lamaowei.com,🛑 全球拦截
  - DOMAIN-SUFFIX,langchars.com,🛑 全球拦截
@@ -5842,6 +5940,7 @@ rules:
  - DOMAIN-SUFFIX,laobei.top,🛑 全球拦截
  - DOMAIN-SUFFIX,laojiayoufang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,laoliulaoliu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,laoma.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,laorncp.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,laoyg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lapwlbz.cn,🛑 全球拦截
@@ -6069,6 +6168,7 @@ rules:
  - DOMAIN-SUFFIX,lujingyu.fun,🛑 全球拦截
  - DOMAIN-SUFFIX,luochengwen.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,luojianrong.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,luoshihua.club,🛑 全球拦截
  - DOMAIN-SUFFIX,luoyuanedu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lusrg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,luxoshopde.com,🛑 全球拦截
@@ -6097,6 +6197,7 @@ rules:
  - DOMAIN-SUFFIX,lyadu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lyaeccn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lyautotech.club,🛑 全球拦截
+ - DOMAIN-SUFFIX,lybctx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lychangxu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lyczhb.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lyedssj.cn,🛑 全球拦截
@@ -6135,6 +6236,7 @@ rules:
  - DOMAIN-SUFFIX,m1.kuanff.com,🛑 全球拦截
  - DOMAIN-SUFFIX,m1.nn670.com,🛑 全球拦截
  - DOMAIN-SUFFIX,m1.we556.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,m100.site,🛑 全球拦截
  - DOMAIN-SUFFIX,m2.lelemh.com,🛑 全球拦截
  - DOMAIN-SUFFIX,m4aqwrl.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,m5xy0v.cn,🛑 全球拦截
@@ -6143,6 +6245,7 @@ rules:
  - DOMAIN-SUFFIX,ma716.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mababa.info,🛑 全球拦截
  - DOMAIN-SUFFIX,maccms.info,🛑 全球拦截
+ - DOMAIN-SUFFIX,machiyun.fun,🛑 全球拦截
  - DOMAIN-SUFFIX,maclwangluokeji.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mademoisellewang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,madisonjamesphotography.com,🛑 全球拦截
@@ -6281,6 +6384,7 @@ rules:
  - DOMAIN-SUFFIX,mjywk.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mjzsw.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,mkjunc.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,mkk.red,🛑 全球拦截
  - DOMAIN-SUFFIX,mkoh.top,🛑 全球拦截
  - DOMAIN-SUFFIX,ml44.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mlangw.net,🛑 全球拦截
@@ -6372,6 +6476,7 @@ rules:
  - DOMAIN-SUFFIX,mxmrt.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mxxgs.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,my-hr.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,my2.life,🛑 全球拦截
  - DOMAIN-SUFFIX,myams.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mydancecn.online,🛑 全球拦截
  - DOMAIN-SUFFIX,mydownba.com,🛑 全球拦截
@@ -6430,6 +6535,7 @@ rules:
  - DOMAIN-SUFFIX,nernv.com,🛑 全球拦截
  - DOMAIN-SUFFIX,netcoretech.net,🛑 全球拦截
  - DOMAIN-SUFFIX,netfix8.info,🛑 全球拦截
+ - DOMAIN-SUFFIX,netshare.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,neudata.cloud,🛑 全球拦截
  - DOMAIN-SUFFIX,new.htcui.com,🛑 全球拦截
  - DOMAIN-SUFFIX,newknowledge.cn,🛑 全球拦截
@@ -6507,11 +6613,13 @@ rules:
  - DOMAIN-SUFFIX,nnsbbd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,noblift.mobi,🛑 全球拦截
  - DOMAIN-SUFFIX,nogvlkk.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,nokiadatabooklet.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,none-test.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nongfumg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nongjingly.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nongsalei.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nongzhifu.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,nopph.website,🛑 全球拦截
  - DOMAIN-SUFFIX,northbase.club,🛑 全球拦截
  - DOMAIN-SUFFIX,nosensor.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,notepade.top,🛑 全球拦截
@@ -6643,6 +6751,7 @@ rules:
  - DOMAIN-SUFFIX,oxmun.com,🛑 全球拦截
  - DOMAIN-SUFFIX,oxqoney.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,oxsm.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,oxzwsxs.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,oy240.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,oycslia.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,oycslib.xyz,🛑 全球拦截
@@ -6708,6 +6817,7 @@ rules:
  - DOMAIN-SUFFIX,pgames.club,🛑 全球拦截
  - DOMAIN-SUFFIX,pgeuxfs.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pgfbtjiy.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,phagueq.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,phoenixnk.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,phpad.cqnews.net,🛑 全球拦截
  - DOMAIN-SUFFIX,phpape.com,🛑 全球拦截
@@ -6737,6 +6847,7 @@ rules:
  - DOMAIN-SUFFIX,pjbjzf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pjfrsc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pjlcrab.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,pjsxebh.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pjtymy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pk965.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pkbook.com.cn,🛑 全球拦截
@@ -6752,6 +6863,7 @@ rules:
  - DOMAIN-SUFFIX,poedlov.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,poewage.top,🛑 全球拦截
  - DOMAIN-SUFFIX,pofang.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pofooz.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pokcykb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,poke88.com,🛑 全球拦截
  - DOMAIN-SUFFIX,polkoa.com,🛑 全球拦截
@@ -6907,6 +7019,7 @@ rules:
  - DOMAIN-SUFFIX,qlugsc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qmdllqv.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qmname.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,qmpartner.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,qmrtubg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qo26.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qo4nkz03dy.cn,🛑 全球拦截
@@ -6929,6 +7042,7 @@ rules:
  - DOMAIN-SUFFIX,qqqwww987.online,🛑 全球拦截
  - DOMAIN-SUFFIX,qqtx.me,🛑 全球拦截
  - DOMAIN-SUFFIX,qqwwmm.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,qrfladd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qrhlgdak.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qs01.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qsart.cn,🛑 全球拦截
@@ -7161,6 +7275,8 @@ rules:
  - DOMAIN-SUFFIX,sankoup.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sanme2.taisantech.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sanmenxia.info,🛑 全球拦截
+ - DOMAIN-SUFFIX,sanqian.press,🛑 全球拦截
+ - DOMAIN-SUFFIX,sanqianxingxuan.icu,🛑 全球拦截
  - DOMAIN-SUFFIX,sanwukeji.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,sanxiucaiwu.top,🛑 全球拦截
  - DOMAIN-SUFFIX,sanxueshufa.cn,🛑 全球拦截
@@ -7356,6 +7472,7 @@ rules:
  - DOMAIN-SUFFIX,skwenq.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sl00ufi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sleepzn.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,slgioxv.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,slgo.club,🛑 全球拦截
  - DOMAIN-SUFFIX,slout.top,🛑 全球拦截
  - DOMAIN-SUFFIX,slshiye.cn,🛑 全球拦截
@@ -7486,6 +7603,7 @@ rules:
  - DOMAIN-SUFFIX,svfwer.top,🛑 全球拦截
  - DOMAIN-SUFFIX,sviss.top,🛑 全球拦截
  - DOMAIN-SUFFIX,svjxuba.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,svm6ryo.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,svvbrkk.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,svwsvn.top,🛑 全球拦截
  - DOMAIN-SUFFIX,sw9t.ml,🛑 全球拦截
@@ -7544,6 +7662,7 @@ rules:
  - DOMAIN-SUFFIX,synacast.com,🛑 全球拦截
  - DOMAIN-SUFFIX,syqqmm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sysal.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,sysjazi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sytcyf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sytsr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,syxchj.cn,🛑 全球拦截
@@ -7601,6 +7720,7 @@ rules:
  - DOMAIN-SUFFIX,tan1dian.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tang-feiji.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tangequan.co,🛑 全球拦截
+ - DOMAIN-SUFFIX,tanggoushequ.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,tangxue.me,🛑 全球拦截
  - DOMAIN-SUFFIX,tanky.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,tanshan.site,🛑 全球拦截
@@ -7631,6 +7751,7 @@ rules:
  - DOMAIN-SUFFIX,tccb71h.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tchep.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tchkcc.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,tcmall.me,🛑 全球拦截
  - DOMAIN-SUFFIX,tcmdz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tcmsp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tcnmf.com,🛑 全球拦截
@@ -7672,6 +7793,7 @@ rules:
  - DOMAIN-SUFFIX,theta.sogoucdn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,thetestpage.39.net,🛑 全球拦截
  - DOMAIN-SUFFIX,thindsoo.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,thinkcode.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,thinkphp.pro,🛑 全球拦截
  - DOMAIN-SUFFIX,this-is-living.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,thishare.com,🛑 全球拦截
@@ -7740,6 +7862,7 @@ rules:
  - DOMAIN-SUFFIX,to335.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tochgw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,togo666.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,tolerated.wang,🛑 全球拦截
  - DOMAIN-SUFFIX,tong.pub,🛑 全球拦截
  - DOMAIN-SUFFIX,tongbuchi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tongdejiayuan.com,🛑 全球拦截
@@ -7818,6 +7941,7 @@ rules:
  - DOMAIN-SUFFIX,tuan512.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tuezse.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tufsjnk.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,tufute.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tuifish.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tuituiyoo999.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tukeai.com,🛑 全球拦截
@@ -7891,6 +8015,7 @@ rules:
  - DOMAIN-SUFFIX,ubmcvideo.baidustatic.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ubt573.org,🛑 全球拦截
  - DOMAIN-SUFFIX,ububyiw6655.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,ubxqerc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,uc.zhuici.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uc4a.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,uc610.com,🛑 全球拦截
@@ -7906,9 +8031,11 @@ rules:
  - DOMAIN-SUFFIX,ud860ec7.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ugg66.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ugmvoys.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,uguhpfo.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,uidndas.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,uissm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ujiasm.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ulqihfr.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ulxypyg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,umbbs.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,umbrella.asia,🛑 全球拦截
@@ -7919,6 +8046,7 @@ rules:
  - DOMAIN-SUFFIX,umvspj.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,un.ubaike.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,un1.lawyernet.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,unconditionally.wang,🛑 全球拦截
  - DOMAIN-SUFFIX,undm.qibulo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uneede.com,🛑 全球拦截
  - DOMAIN-SUFFIX,unetall.com,🛑 全球拦截
@@ -7998,6 +8126,7 @@ rules:
  - DOMAIN-SUFFIX,video231.oss-cn-beijing.aliyuncs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vik.cx,🛑 全球拦截
  - DOMAIN-SUFFIX,vinuxhome.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,violates.wang,🛑 全球拦截
  - DOMAIN-SUFFIX,vip.panggugu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,viphdk.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,vivi87.cn,🛑 全球拦截
@@ -8205,6 +8334,7 @@ rules:
  - DOMAIN-SUFFIX,wkjava.top,🛑 全球拦截
  - DOMAIN-SUFFIX,wknhovh.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wknniyu.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,wknydhz.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wksrx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wl963.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wlaoc.cn,🛑 全球拦截
@@ -8278,6 +8408,7 @@ rules:
  - DOMAIN-SUFFIX,wulian.in,🛑 全球拦截
  - DOMAIN-SUFFIX,wuliao.chzsport.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wuliao.juqingba.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,wutaixian.shop,🛑 全球拦截
  - DOMAIN-SUFFIX,wuwai.art,🛑 全球拦截
  - DOMAIN-SUFFIX,wuwaii.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wuxiann.top,🛑 全球拦截
@@ -8376,6 +8507,7 @@ rules:
  - DOMAIN-SUFFIX,xcmz999.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xcsaz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xcsci.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,xcummws.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xcxlneb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xcxzxc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xcy8.com,🛑 全球拦截
@@ -8437,6 +8569,7 @@ rules:
  - DOMAIN-SUFFIX,xiaokeaiapp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaokeji.club,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaokenan.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,xiaoli.video,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaolipc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaomifood.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaonengdou.vip,🛑 全球拦截
@@ -8447,6 +8580,7 @@ rules:
  - DOMAIN-SUFFIX,xiaoxiangmovie.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaoxiaoyd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaoyaunbao.club,🛑 全球拦截
+ - DOMAIN-SUFFIX,xiaozhangzhushou.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaozhige.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,xiarikui08.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xiayk.cn,🛑 全球拦截
@@ -8477,6 +8611,8 @@ rules:
  - DOMAIN-SUFFIX,xingyou22.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,xingyou25.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,xingyou46.icu,🛑 全球拦截
+ - DOMAIN-SUFFIX,xingyou64.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,xingyou65.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,xingzhu.top,🛑 全球拦截
  - DOMAIN-SUFFIX,xinhaogong.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,xinheshengmce.com,🛑 全球拦截
@@ -8563,6 +8699,7 @@ rules:
  - DOMAIN-SUFFIX,xqwkjf.top,🛑 全球拦截
  - DOMAIN-SUFFIX,xqygyp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xrecord.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,xryrylt.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xs.houyi.baofeng.net,🛑 全球拦截
  - DOMAIN-SUFFIX,xsdizch.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xsdlt.top,🛑 全球拦截
@@ -8725,6 +8862,7 @@ rules:
  - DOMAIN-SUFFIX,yhjzg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yhsmk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yi.ximizi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,yiangds.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yibaosenlin.top,🛑 全球拦截
  - DOMAIN-SUFFIX,yichunrz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yicuntian.cn,🛑 全球拦截
@@ -8787,6 +8925,7 @@ rules:
  - DOMAIN-SUFFIX,yl-zipper.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yl04z4v.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ylbb-vipjs.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ylbx.me,🛑 全球拦截
  - DOMAIN-SUFFIX,ylfgybn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ylinzx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ylppppp.cn,🛑 全球拦截
@@ -8938,6 +9077,7 @@ rules:
  - DOMAIN-SUFFIX,yxgfcj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yxhxs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yxjad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,yxjibph.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yxmspx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yxsnf.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yxszy.com,🛑 全球拦截
@@ -8992,6 +9132,7 @@ rules:
  - DOMAIN-SUFFIX,zbzbzzz.top,🛑 全球拦截
  - DOMAIN-SUFFIX,zc710956.top,🛑 全球拦截
  - DOMAIN-SUFFIX,zcand.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,zcao.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,zcfhi.cn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zchange.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,zcmnffq.cn,🛑 全球拦截
@@ -9197,6 +9338,7 @@ rules:
  - DOMAIN-SUFFIX,zncat.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zongjiangc.top,🛑 全球拦截
  - DOMAIN-SUFFIX,zongjiangd.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,zonmxej.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zoom.zshu.net,🛑 全球拦截
  - DOMAIN-SUFFIX,zougg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zoujuhonglawyer.com,🛑 全球拦截
@@ -9247,6 +9389,7 @@ rules:
  - DOMAIN-SUFFIX,zwdq.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,zwhkug.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zwkssb.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,zwmosu.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,zwrj999.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zwwl.shop,🛑 全球拦截
  - DOMAIN-SUFFIX,zwychain.cn,🛑 全球拦截
@@ -9298,6 +9441,7 @@ rules:
  - DOMAIN-SUFFIX,zzsno1.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zzsssy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zzssywh.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,zztuu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zzuzcy.cloud,🛑 全球拦截
  - DOMAIN-SUFFIX,zzwpsm.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zzxhx.com,🛑 全球拦截
@@ -9381,6 +9525,21 @@ rules:
  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
+ - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+ - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+ - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+ - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+ - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+ - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+ - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+ - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+ - DOMAIN,wmsjsteam.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,t.me,🚀 节点选择
  - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
  - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
@@ -10097,9 +10256,9 @@ rules:
  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
- - DOMAIN-SUFFIX,中国,🎯 全球直连
- - DOMAIN-SUFFIX,公司,🎯 全球直连
- - DOMAIN-SUFFIX,网络,🎯 全球直连
+ - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
+ - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
+ - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
  - DOMAIN-KEYWORD,-cn,🎯 全球直连
  - DOMAIN-KEYWORD,360buy,🎯 全球直连
  - DOMAIN-KEYWORD,alicdn,🎯 全球直连
@@ -10329,6 +10488,7 @@ rules:
  - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
  - DOMAIN-SUFFIX,sony.com,🎯 全球直连
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
