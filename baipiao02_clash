@@ -5,48 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_@baipiao02, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 2, server: cstwrelay.onlineto.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 3, server: cstwrelay.onlineto.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 4, server: usastandard2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 5, server: usastandard2.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 6, server: usastandard2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 7, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 8, server: cusouthcmhk.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 9, server: relaypro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 10, server: shcris02stand.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 11, server: relaypro.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 12, server: cstwrelay.onlineto.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 13, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 14, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 15, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 16, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 17, server: shallaz.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 18, server: shcris03.proconcn.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 19, server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 20, server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 21, server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: ""}
-  - {name: CN_@baipiao02 22, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
-  - {name: US_@baipiao02, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CA_@baipiao02, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CN_@baipiao02 23, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
-  - {name: CN_@baipiao02 24, server: gz1.52168.xyz, port: 1103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
-  - {name: CA_@baipiao02 2, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_@baipiao02 3, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CA_@baipiao02 4, server: 134.195.196.51, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CA_@baipiao02 5, server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CA_@baipiao02 6, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CA_@baipiao02 7, server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_@baipiao02 2, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, skip-cert-verify: false}
-  - {name: US_@baipiao02 3, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, skip-cert-verify: false}
-  - {name: US_@baipiao02 4, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: false}
-  - {name: US_@baipiao02 5, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9apQabyg9le, headers: {Host: 209.94.56.152}}}
-  - {name: DE_@baipiao02, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: CA_@baipiao02 8, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CA_@baipiao02 9, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: DE_@baipiao02 2, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: DE_@baipiao02 3, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: CH_@baipiao02, server: 20.203.137.25, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder"}
+  - {name: 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧, server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 0.67|Super 美国02   MIEPL  倍率18, server: euchei9j.nodeinfo.icu, port: 1121, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇺🇸 2.23|Super 美国04   MIEPL  倍率18, server: meb1aibe.nodeinfo.icu, port: 1133, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇺🇸 2.43|Super 美国03   MIEPL 倍率2, server: ahc1beib.nodeinfo.icu, port: 1132, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇭🇰 3.89|Super 香港05   IEPL  倍率25, server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21, server: ohm9aizu.nodeinfo.icu, port: 1122, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇹🇼 4.54|Super 台湾03   IEPL  倍率21, server: aedah1ch.nodeinfo.icu, port: 1130, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇹🇼 4.86|Super 台湾04   IEPL  倍率21, server: piizoh3x.nodeinfo.icu, port: 1131, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2, server: oexu8yee.nodeinfo.icu, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇯🇵 5.32|Super 日本01   MIEPL  倍率2, server: meiphen0.nodeinfo.icu, port: 1126, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇭🇰 5.37|Super 香港01   MIEPL  倍率28, server: ota2wier.nodeinfo.icu, port: 7001, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇭🇰 5.61|Super 香港06   IEPL  倍率25, server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇭🇰 5.65|Super 香港07   IEPL  倍率23, server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: 🇭🇰 6.03|Super 香港02   MIEPL  倍率25, server: feeco8oo.nodeinfo.icu, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
+  - {name: CN_@baipiao02, server: 183.232.56.161, port: 9112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 2, server: 183.232.56.161, port: 1703, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 3, server: dns-02-838711.zhcn.one, port: 65017, type: vmess, uuid: 07eb058a-9eef-343f-83fc-f387c0ab684b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: dns-02-838711.zhcn.one}}}
+  - {name: CN_@baipiao02 4, server: 183.232.56.161, port: 1602, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 5, server: 183.232.56.161, port: 1603, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 6, server: 183.232.56.161, port: 1601, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 7, server: 183.232.56.161, port: 1605, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 8, server: dns-05-351958.zhcn.one, port: 65049, type: vmess, uuid: 07eb058a-9eef-343f-83fc-f387c0ab684b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: dns-05-351958.zhcn.one}}}
+  - {name: CN_@baipiao02 9, server: 183.232.56.161, port: 1952, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 10, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
+  - {name: CN_@baipiao02 11, server: 183.232.56.161, port: 5019, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 12, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
+  - {name: CN_@baipiao02 13, server: 183.232.56.161, port: 5018, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 14, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
+  - {name: CN_@baipiao02 15, server: 183.232.56.161, port: 1303, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 16, server: 52.131.222.178, port: 31313, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
+  - {name: CN_@baipiao02 17, server: 183.232.56.161, port: 1202, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 18, server: 101.230.149.1, port: 1001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 101.230.149.1}}}
+  - {name: CN_@baipiao02 19, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
+  - {name: CN_@baipiao02 20, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 101.230.149.1}}}
+  - {name: CN_@baipiao02 21, server: 183.232.56.161, port: 1051, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 22, server: 183.232.56.161, port: 1052, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 23, server: 183.232.56.161, port: 6112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 24, server: 183.232.56.161, port: 1123, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 25, server: 183.232.56.161, port: 1122, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
+  - {name: CN_@baipiao02 26, server: 52.131.222.178, port: 51012, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
+  - {name: CN_@baipiao02 27, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
+  - {name: JP_@baipiao02, server: 1.wwwkkk.xyz, port: 48915, type: vmess, uuid: 1cf92bff-6413-47b2-c292-6c6effc8ec72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: RU_@baipiao02, server: ru2.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /helloman, headers: {Host: ru2.peakerselling.com}}}
+  - {name: US_@baipiao02, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 154.17.19.224}}}
+  - {name: US_@baipiao02 2, server: 154.17.25.49, port: 2089, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 154.17.25.49}}}
+  - {name: US_@baipiao02 3, server: 185.217.108.182, port: 2086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 185.217.108.182}}}
+  - {name: US_@baipiao02 4, server: 154.17.18.191, port: 1095, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 154.17.18.191}}}
+  - {name: US_@baipiao02 5, server: 167.88.63.108, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: US_@baipiao02 6, server: 167.88.63.108, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: US_@baipiao02 7, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9apQabyg9le, headers: {Host: 209.94.56.152}}}
   - {name: "🇭🇰 香港(中国)+🚀[极速稳定]", server: 122.9.54.131, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 33bdcd5a83fdd0c0fb3a5083868b05fe5b3f4f80a142889bb764e88882837048}
   - {name: "🇭🇰 香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e}
 proxy-groups:
@@ -57,6 +65,20 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
+      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
+      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
+      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
+      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
+      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
+      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
+      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
+      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
+      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
+      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
+      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
+      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
@@ -79,26 +101,20 @@ proxy-groups:
       - CN_@baipiao02 20
       - CN_@baipiao02 21
       - CN_@baipiao02 22
-      - US_@baipiao02
-      - CA_@baipiao02
       - CN_@baipiao02 23
       - CN_@baipiao02 24
-      - CA_@baipiao02 2
-      - CA_@baipiao02 3
-      - CA_@baipiao02 4
-      - CA_@baipiao02 5
-      - CA_@baipiao02 6
-      - CA_@baipiao02 7
+      - CN_@baipiao02 25
+      - CN_@baipiao02 26
+      - CN_@baipiao02 27
+      - JP_@baipiao02
+      - RU_@baipiao02
+      - US_@baipiao02
       - US_@baipiao02 2
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
-      - DE_@baipiao02
-      - CA_@baipiao02 8
-      - CA_@baipiao02 9
-      - DE_@baipiao02 2
-      - DE_@baipiao02 3
-      - CH_@baipiao02
+      - US_@baipiao02 6
+      - US_@baipiao02 7
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: ♻️ 自动选择
@@ -107,6 +123,20 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
+      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
+      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
+      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
+      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
+      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
+      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
+      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
+      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
+      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
+      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
+      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
+      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
@@ -129,26 +159,20 @@ proxy-groups:
       - CN_@baipiao02 20
       - CN_@baipiao02 21
       - CN_@baipiao02 22
-      - US_@baipiao02
-      - CA_@baipiao02
       - CN_@baipiao02 23
       - CN_@baipiao02 24
-      - CA_@baipiao02 2
-      - CA_@baipiao02 3
-      - CA_@baipiao02 4
-      - CA_@baipiao02 5
-      - CA_@baipiao02 6
-      - CA_@baipiao02 7
+      - CN_@baipiao02 25
+      - CN_@baipiao02 26
+      - CN_@baipiao02 27
+      - JP_@baipiao02
+      - RU_@baipiao02
+      - US_@baipiao02
       - US_@baipiao02 2
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
-      - DE_@baipiao02
-      - CA_@baipiao02 8
-      - CA_@baipiao02 9
-      - DE_@baipiao02 2
-      - DE_@baipiao02 3
-      - CH_@baipiao02
+      - US_@baipiao02 6
+      - US_@baipiao02 7
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: 🔯 故障转移
@@ -156,6 +180,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
+      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
+      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
+      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
+      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
+      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
+      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
+      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
+      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
+      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
+      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
+      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
+      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
@@ -178,26 +216,20 @@ proxy-groups:
       - CN_@baipiao02 20
       - CN_@baipiao02 21
       - CN_@baipiao02 22
-      - US_@baipiao02
-      - CA_@baipiao02
       - CN_@baipiao02 23
       - CN_@baipiao02 24
-      - CA_@baipiao02 2
-      - CA_@baipiao02 3
-      - CA_@baipiao02 4
-      - CA_@baipiao02 5
-      - CA_@baipiao02 6
-      - CA_@baipiao02 7
+      - CN_@baipiao02 25
+      - CN_@baipiao02 26
+      - CN_@baipiao02 27
+      - JP_@baipiao02
+      - RU_@baipiao02
+      - US_@baipiao02
       - US_@baipiao02 2
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
-      - DE_@baipiao02
-      - CA_@baipiao02 8
-      - CA_@baipiao02 9
-      - DE_@baipiao02 2
-      - DE_@baipiao02 3
-      - CH_@baipiao02
+      - US_@baipiao02 6
+      - US_@baipiao02 7
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: 🔮 负载均衡
@@ -206,6 +238,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
+      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
+      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
+      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
+      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
+      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
+      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
+      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
+      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
+      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
+      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
+      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
+      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
@@ -228,26 +274,20 @@ proxy-groups:
       - CN_@baipiao02 20
       - CN_@baipiao02 21
       - CN_@baipiao02 22
-      - US_@baipiao02
-      - CA_@baipiao02
       - CN_@baipiao02 23
       - CN_@baipiao02 24
-      - CA_@baipiao02 2
-      - CA_@baipiao02 3
-      - CA_@baipiao02 4
-      - CA_@baipiao02 5
-      - CA_@baipiao02 6
-      - CA_@baipiao02 7
+      - CN_@baipiao02 25
+      - CN_@baipiao02 26
+      - CN_@baipiao02 27
+      - JP_@baipiao02
+      - RU_@baipiao02
+      - US_@baipiao02
       - US_@baipiao02 2
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
-      - DE_@baipiao02
-      - CA_@baipiao02 8
-      - CA_@baipiao02 9
-      - DE_@baipiao02 2
-      - DE_@baipiao02 3
-      - CH_@baipiao02
+      - US_@baipiao02 6
+      - US_@baipiao02 7
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: 🎯 全球直连
@@ -269,6 +309,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
+      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
+      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
+      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
+      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
+      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
+      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
+      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
+      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
+      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
+      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
+      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
+      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
@@ -291,26 +345,20 @@ proxy-groups:
       - CN_@baipiao02 20
       - CN_@baipiao02 21
       - CN_@baipiao02 22
-      - US_@baipiao02
-      - CA_@baipiao02
       - CN_@baipiao02 23
       - CN_@baipiao02 24
-      - CA_@baipiao02 2
-      - CA_@baipiao02 3
-      - CA_@baipiao02 4
-      - CA_@baipiao02 5
-      - CA_@baipiao02 6
-      - CA_@baipiao02 7
+      - CN_@baipiao02 25
+      - CN_@baipiao02 26
+      - CN_@baipiao02 27
+      - JP_@baipiao02
+      - RU_@baipiao02
+      - US_@baipiao02
       - US_@baipiao02 2
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
-      - DE_@baipiao02
-      - CA_@baipiao02 8
-      - CA_@baipiao02 9
-      - DE_@baipiao02 2
-      - DE_@baipiao02 3
-      - CH_@baipiao02
+      - US_@baipiao02 6
+      - US_@baipiao02 7
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
 rules:
