@@ -5,7 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧, server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇭🇰 !V_香港_AZ01【推荐】_1, server: gy.rinki.monster, port: 1004, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
+  - {name: 🇭🇰 !V_香港_HGC_2, server: gy.rinki.monster, port: 2009, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
+  - {name: "🇺🇸 #V_美国_01", server: gy.rinki.monster, port: 1002, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
+  - {name: "🇯🇵 #V_日本_02", server: gy.rinki.monster, port: 2006, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
+  - {name: "🇸🇬 #V_新加坡_02", server: gy.rinki.monster, port: 1001, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
+  - {name: defaultName_80, server: 144.91.109.120, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: DnCos43pHTLW}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lin1.free80ml.tk}}}
+  - {name: 🇹🇼 V_台湾_03, server: gy.rinki.monster, port: 2003, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
   - {name: 🇺🇸 0.67|Super 美国02   MIEPL  倍率18, server: euchei9j.nodeinfo.icu, port: 1121, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
   - {name: 🇺🇸 2.23|Super 美国04   MIEPL  倍率18, server: meb1aibe.nodeinfo.icu, port: 1133, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
   - {name: 🇺🇸 2.43|Super 美国03   MIEPL 倍率2, server: ahc1beib.nodeinfo.icu, port: 1132, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
@@ -65,7 +72,14 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 !V_香港_AZ01【推荐】_1
+      - 🇭🇰 !V_香港_HGC_2
+      - "🇺🇸 #V_美国_01"
+      - "🇯🇵 #V_日本_02"
+      - "🇸🇬 #V_新加坡_02"
+      - defaultName_80
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
+      - 🇹🇼 V_台湾_03
       - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
       - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
       - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
@@ -123,7 +137,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 !V_香港_AZ01【推荐】_1
+      - 🇭🇰 !V_香港_HGC_2
+      - "🇺🇸 #V_美国_01"
+      - "🇯🇵 #V_日本_02"
+      - "🇸🇬 #V_新加坡_02"
+      - defaultName_80
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
+      - 🇹🇼 V_台湾_03
       - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
       - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
       - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
@@ -180,7 +201,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 !V_香港_AZ01【推荐】_1
+      - 🇭🇰 !V_香港_HGC_2
+      - "🇺🇸 #V_美国_01"
+      - "🇯🇵 #V_日本_02"
+      - "🇸🇬 #V_新加坡_02"
+      - defaultName_80
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
+      - 🇹🇼 V_台湾_03
       - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
       - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
       - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
@@ -238,7 +266,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 !V_香港_AZ01【推荐】_1
+      - 🇭🇰 !V_香港_HGC_2
+      - "🇺🇸 #V_美国_01"
+      - "🇯🇵 #V_日本_02"
+      - "🇸🇬 #V_新加坡_02"
+      - defaultName_80
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
+      - 🇹🇼 V_台湾_03
       - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
       - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
       - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
@@ -309,7 +344,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇺🇸 :美国-ss-142.202.48.17:443-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 !V_香港_AZ01【推荐】_1
+      - 🇭🇰 !V_香港_HGC_2
+      - "🇺🇸 #V_美国_01"
+      - "🇯🇵 #V_日本_02"
+      - "🇸🇬 #V_新加坡_02"
+      - defaultName_80
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
+      - 🇹🇼 V_台湾_03
       - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
       - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
       - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
