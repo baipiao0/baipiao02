@@ -5,63 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 !V_香港_AZ01【推荐】_1, server: gy.rinki.monster, port: 1004, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
-  - {name: 🇭🇰 !V_香港_HGC_2, server: gy.rinki.monster, port: 2009, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
-  - {name: "🇺🇸 #V_美国_01", server: gy.rinki.monster, port: 1002, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
-  - {name: "🇯🇵 #V_日本_02", server: gy.rinki.monster, port: 2006, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
-  - {name: "🇸🇬 #V_新加坡_02", server: gy.rinki.monster, port: 1001, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
-  - {name: defaultName_80, server: 144.91.109.120, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: DnCos43pHTLW}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lin1.free80ml.tk}}}
-  - {name: 🇹🇼 V_台湾_03, server: gy.rinki.monster, port: 2003, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}}
-  - {name: 🇺🇸 0.67|Super 美国02   MIEPL  倍率18, server: euchei9j.nodeinfo.icu, port: 1121, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇺🇸 2.23|Super 美国04   MIEPL  倍率18, server: meb1aibe.nodeinfo.icu, port: 1133, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇺🇸 2.43|Super 美国03   MIEPL 倍率2, server: ahc1beib.nodeinfo.icu, port: 1132, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇭🇰 3.89|Super 香港05   IEPL  倍率25, server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21, server: ohm9aizu.nodeinfo.icu, port: 1122, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇹🇼 4.54|Super 台湾03   IEPL  倍率21, server: aedah1ch.nodeinfo.icu, port: 1130, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇹🇼 4.86|Super 台湾04   IEPL  倍率21, server: piizoh3x.nodeinfo.icu, port: 1131, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2, server: oexu8yee.nodeinfo.icu, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇯🇵 5.32|Super 日本01   MIEPL  倍率2, server: meiphen0.nodeinfo.icu, port: 1126, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇭🇰 5.37|Super 香港01   MIEPL  倍率28, server: ota2wier.nodeinfo.icu, port: 7001, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇭🇰 5.61|Super 香港06   IEPL  倍率25, server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇭🇰 5.65|Super 香港07   IEPL  倍率23, server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: 🇭🇰 6.03|Super 香港02   MIEPL  倍率25, server: feeco8oo.nodeinfo.icu, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk}
-  - {name: CN_@baipiao02, server: 183.232.56.161, port: 9112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 2, server: 183.232.56.161, port: 1703, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 3, server: dns-02-838711.zhcn.one, port: 65017, type: vmess, uuid: 07eb058a-9eef-343f-83fc-f387c0ab684b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: dns-02-838711.zhcn.one}}}
-  - {name: CN_@baipiao02 4, server: 183.232.56.161, port: 1602, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 5, server: 183.232.56.161, port: 1603, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 6, server: 183.232.56.161, port: 1601, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 7, server: 183.232.56.161, port: 1605, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 8, server: dns-05-351958.zhcn.one, port: 65049, type: vmess, uuid: 07eb058a-9eef-343f-83fc-f387c0ab684b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: dns-05-351958.zhcn.one}}}
-  - {name: CN_@baipiao02 9, server: 183.232.56.161, port: 1952, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 10, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
-  - {name: CN_@baipiao02 11, server: 183.232.56.161, port: 5019, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 12, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
-  - {name: CN_@baipiao02 13, server: 183.232.56.161, port: 5018, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 14, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
-  - {name: CN_@baipiao02 15, server: 183.232.56.161, port: 1303, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 16, server: 52.131.222.178, port: 31313, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
-  - {name: CN_@baipiao02 17, server: 183.232.56.161, port: 1202, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 18, server: 101.230.149.1, port: 1001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 101.230.149.1}}}
-  - {name: CN_@baipiao02 19, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
-  - {name: CN_@baipiao02 20, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 101.230.149.1}}}
-  - {name: CN_@baipiao02 21, server: 183.232.56.161, port: 1051, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 22, server: 183.232.56.161, port: 1052, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 23, server: 183.232.56.161, port: 6112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 24, server: 183.232.56.161, port: 1123, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 25, server: 183.232.56.161, port: 1122, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}}
-  - {name: CN_@baipiao02 26, server: 52.131.222.178, port: 51012, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}}
-  - {name: CN_@baipiao02 27, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
-  - {name: JP_@baipiao02, server: 1.wwwkkk.xyz, port: 48915, type: vmess, uuid: 1cf92bff-6413-47b2-c292-6c6effc8ec72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: RU_@baipiao02, server: ru2.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /helloman, headers: {Host: ru2.peakerselling.com}}}
-  - {name: US_@baipiao02, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 154.17.19.224}}}
-  - {name: US_@baipiao02 2, server: 154.17.25.49, port: 2089, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 154.17.25.49}}}
-  - {name: US_@baipiao02 3, server: 185.217.108.182, port: 2086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 185.217.108.182}}}
-  - {name: US_@baipiao02 4, server: 154.17.18.191, port: 1095, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 154.17.18.191}}}
-  - {name: US_@baipiao02 5, server: 167.88.63.108, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_@baipiao02 6, server: 167.88.63.108, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_@baipiao02 7, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9apQabyg9le, headers: {Host: 209.94.56.152}}}
+  - {name: 🇭🇰 Super港06_IEPL_倍率:2_5, server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇹🇼 Super台03_IEPL_倍率:2_1, server: aedah1ch.nodeinfo.icu, port: 1130, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港01-allmedia_MIEPL_倍率:1_8, server: phahw1un.nodeinfo.icu, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Super港05_IEPL_倍率:2_5, server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港11-nf_IEPL_倍率:1_6, server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Super新02_IEPL_倍率:2_124, server: gee3ahy3.nodeinfo.icu, port: 1128, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港21-nfo_MIEPL_倍率:1_6, server: aic5ucu1.nodeinfo.icu, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港16-allmedia_MIEPL_倍率:1_6, server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港13-all_IEPL_倍率:1_6, server: koo3cuiz.nodeinfo.icu, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港23-nfo_IEPL_倍率:1_6, server: shei5eij.nodeinfo.icu, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港24-nfo_IEPL_倍率:1_6, server: phahx7xo.nodeinfo.icu, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇹🇼 Super台02_MIEPL_倍率:2_1, server: yoo5hoog.nodeinfo.icu, port: 1123, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港03-allmedia_MIEPL_倍率:1_8, server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Large新04-all_MIEPL_倍率:1_6, server: ainetu9e.nodeinfo.icu, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Super港07_IEPL_倍率:2_3, server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港06-nf_MIEPL_倍率:1_8, server: iux7shis.nodeinfo.icu, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇹🇼 Large台灣02-all_IEPL_倍率:1_8, server: yeen3opa.nodeinfo.icu, port: 6502, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Large新12-all_IEPL_倍率:1_5, server: iephu5so.nodeinfo.icu, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Large新02-all_IEPL_倍率:1_5, server: roog5tee.nodeinfo.icu, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Super港04_MIEPL_倍率:2_5, server: vureuva3.nodeinfo.icu, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇺🇸 Super美04_MIEPL_倍率:1_8, server: meb1aibe.nodeinfo.icu, port: 1133, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇺🇸 Super美02_MIEPL_倍率:1_8, server: euchei9j.nodeinfo.icu, port: 1121, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Lil港12-nf_IEPL_倍率:3_114, server: oohas7ou.nodeinfo.icu, port: 2112, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Large新08-all_IEPL_倍率:1_5, server: eu7aish2.nodeinfo.icu, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Large新05-all_IEPL_倍率:1_5, server: aebek1oo.nodeinfo.icu, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Large新07-all_IEPL_倍率:1_5, server: eer9iqu7.nodeinfo.icu, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Large新06-all_IEPL_倍率:1_5, server: phoo6aem.nodeinfo.icu, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Lil新05-netflix_IEPL_倍率:2_72, server: axeed0uh.nodeinfo.icu, port: 2003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港14-nf_MIEPL_倍率:1_6, server: utai3iw1.nodeinfo.icu, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港08-all_IEPL_倍率:1_6, server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港04-allmedia_MIEPL_倍率:1_8, server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Large新09-all_IEPL_倍率:1_5, server: meeku3zi.nodeinfo.icu, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇸🇬 Super新01_MIEPL_倍率:2_123, server: oexu8yee.nodeinfo.icu, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇯🇵 Super日01_MIEPL_倍率:2_125, server: meiphen0.nodeinfo.icu, port: 1126, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇯🇵 Large日05-allmedia_IEPL_倍率:1_3, server: powa8agh.nodeinfo.icu, port: 6305, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇹🇼 Large台灣01-all_IEPL_倍率:1_8, server: oogha1za.nodeinfo.icu, port: 6501, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Super港03_MIEPL_倍率:2_5, server: vahv9diw.nodeinfo.icu, port: 7003, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇭🇰 Large港18-nf_IEPL_倍率:1_8, server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇯🇵 Large日03-allmedia_IEPL_倍率:1_5, server: eeth0aey.nodeinfo.icu, port: 6303, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: 🇯🇵 Large日02-allmedia_IEPL_倍率:1_5, server: wi6ru6zo.nodeinfo.icu, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 226157:OcaMxu, obfs-param: telegram.channel.p2psharing}
+  - {name: CN_@baipiao02, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: ""}
+  - {name: CN_@baipiao02 2, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: ""}
+  - {name: CN_@baipiao02 3, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: ""}
+  - {name: JP_@baipiao02, server: 45.77.22.155, port: 49192, type: vmess, uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP_@baipiao02 2, server: 140.238.36.111, port: 80, type: vmess, uuid: befdb5b5-1e37-491f-b355-ca274a75798e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP_@baipiao02 3, server: dj1.csz666.ml, port: 443, type: vmess, uuid: e57e2134-e5cc-4b83-aa19-e2a438a5c517, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dj1.csz666.ml}}}
+  - {name: "@baipiao02", server: 103.172.116.8, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
+  - {name: "@baipiao02 2", server: 103.172.116.9, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
+  - {name: HK_@baipiao02, server: 47.243.246.46, port: 443, type: vmess, uuid: 80fe731d-0a45-4df9-413d-b74fa0099ef5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /faocvws, headers: {Host: magsko.eu.org}}}
+  - {name: US_@baipiao02, server: 138.2.92.131, port: 38504, type: vmess, uuid: b94db657-00ec-4efa-8bd4-9bc50954b6ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_@baipiao02 4, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f}
+  - {name: US_@baipiao02 2, server: 138.2.92.131, port: 38504, type: vmess, uuid: b94db657-00ec-4efa-8bd4-9bc50954b6ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_@baipiao02 5, server: yy01.nfeng6.pp.ua, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: e167067249.microsoft.com}
+  - {name: CN_@baipiao02 6, server: yy01.nfeng6.pp.ua, port: 4001, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: e167067249.microsoft.com}
+  - {name: CN_@baipiao02 7, server: 116.162.14.167, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 8, server: 116.162.32.163, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 9, server: 116.162.32.163, port: 615, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 10, server: 116.162.14.167, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 11, server: 116.162.14.167, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 12, server: 116.162.14.167, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: IN_@baipiao02, server: 52.66.186.195, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 13, server: 116.162.32.163, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 14, server: 116.162.14.167, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 15, server: 112.65.53.161, port: 569, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 16, server: 112.65.53.161, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 17, server: 112.65.53.161, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 18, server: 112.65.53.161, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 19, server: 112.65.53.161, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 20, server: 112.65.53.161, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 21, server: 112.65.53.161, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 22, server: 112.65.53.161, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 23, server: 112.65.53.161, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 24, server: 223.166.145.206, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 25, server: 223.166.145.206, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 26, server: 223.166.145.206, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 27, server: 223.166.145.206, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 28, server: 112.64.105.119, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 29, server: 112.64.105.119, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 30, server: 112.64.105.119, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 31, server: 112.64.105.119, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 32, server: 112.64.105.119, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 33, server: 223.166.21.184, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 34, server: 223.166.21.184, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 35, server: 223.166.21.184, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 36, server: 223.166.21.184, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 37, server: 223.166.21.184, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 38, server: 223.166.21.184, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 39, server: 223.166.21.184, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 40, server: 101.67.8.220, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 41, server: 101.67.8.220, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 42, server: 101.67.8.220, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 43, server: 139.227.78.183, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 44, server: 139.227.78.183, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 45, server: 183.236.60.179, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 46, server: 183.236.60.179, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 47, server: 183.236.60.178, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 48, server: 183.236.60.134, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 49, server: 183.236.60.134, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 50, server: 183.236.60.134, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 51, server: 183.236.60.153, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 52, server: 183.236.60.153, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 53, server: 183.236.60.145, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: HK_@baipiao02 2, server: 119.237.69.146, port: 443, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: HK_@baipiao02 3, server: 58.152.141.37, port: 443, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: HK_@baipiao02 4, server: 119.237.64.40, port: 443, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 54, server: 223.166.21.184, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 55, server: 139.227.112.187, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 56, server: 120.236.180.14, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 57, server: 120.236.180.14, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 58, server: 183.236.60.182, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 59, server: 183.236.60.182, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 60, server: 183.236.60.181, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 61, server: 183.236.60.181, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 62, server: 183.236.60.178, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 63, server: 183.236.60.153, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 64, server: 183.236.60.145, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 65, server: 183.236.60.136, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: CN_@baipiao02 66, server: 183.236.60.136, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 56371:dhhxhf, obfs-param: t.me/vpnhat}
+  - {name: JP_@baipiao02 4, server: ss-node-1-b.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 115cd9d9-00d9-48cb-bed9-ae436d5709f7}
+  - {name: KR_@baipiao02, server: ss-node-2-b.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 115cd9d9-00d9-48cb-bed9-ae436d5709f7}
+  - {name: HK_@baipiao02 5, server: ss-node-4-b.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 115cd9d9-00d9-48cb-bed9-ae436d5709f7}
+  - {name: JP_@baipiao02 5, server: tj-node-1-b.gfwairport.net, port: 50001, type: trojan, password: 115cd9d9-00d9-48cb-bed9-ae436d5709f7, skip-cert-verify: false}
+  - {name: KR_@baipiao02 2, server: tj-node-2-b.gfwairport.net, port: 50001, type: trojan, password: 115cd9d9-00d9-48cb-bed9-ae436d5709f7, skip-cert-verify: false}
+  - {name: HK_@baipiao02 6, server: tj-node-4-b.gfwairport.net, port: 50001, type: trojan, password: 115cd9d9-00d9-48cb-bed9-ae436d5709f7, skip-cert-verify: false}
+  - {name: US_@baipiao02 3, server: tj-node-5-b.gfwairport.net, port: 50001, type: trojan, password: 115cd9d9-00d9-48cb-bed9-ae436d5709f7, skip-cert-verify: false}
+  - {name: US_@baipiao02 4, server: 172.99.188.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: US_@baipiao02 5, server: 172.99.188.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: US_@baipiao02 6, server: 172.99.188.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: HK_@baipiao02 7, server: hk2.qingyun123.xyz, port: 10050, type: trojan, password: 61fbe6de-8669-43b7-8c75-36e725e39a40, skip-cert-verify: false}
+  - {name: CA_@baipiao02, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: HK_@baipiao02 8, server: hk-b.sserver.top, port: 80, type: vmess, uuid: cc567bd2-faf5-3ce2-9fae-b5f34f18b240, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: hk-b.sserver.top}}}
+  - {name: "@baipiao02 3", server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}}
+  - {name: US_@baipiao02 7, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 1b052c5f-ee85-4137-9cd3-0c06cdd53224, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: awsxjp.moonfree.top}}}
+  - {name: US_@baipiao02 8, server: us1.qingyun123.xyz, port: 10050, type: trojan, password: 61fbe6de-8669-43b7-8c75-36e725e39a40, skip-cert-verify: false}
+  - {name: CA_@baipiao02 2, server: 134.195.196.51, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: US_@baipiao02 9, server: s162.s2022.xyz, port: 23802, type: trojan, password: 770c9e92-f51b-3e52-b932-eba13fb56801, skip-cert-verify: false}
+  - {name: CA_@baipiao02 3, server: 134.195.196.51, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CA_@baipiao02 4, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: JP_@baipiao02 6, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CA_@baipiao02 5, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: US_@baipiao02 10, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: "🇭🇰 香港(中国)+🚀[极速稳定]", server: 122.9.54.131, port: 1029, type: ss, cipher: chacha20-ietf-poly1305, password: 33bdcd5a83fdd0c0fb3a5083868b05fe5b3f4f80a142889bb764e88882837048}
   - {name: "🇭🇰 香港(中国)🚀[极速稳定]", server: 122.9.62.45, port: 1028, type: ss, cipher: chacha20-ietf-poly1305, password: 958c6e082af39b451e1656b87660a363c89071a21d5a768b12e564d1dbe3e96e}
 proxy-groups:
@@ -72,31 +156,58 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇭🇰 !V_香港_AZ01【推荐】_1
-      - 🇭🇰 !V_香港_HGC_2
-      - "🇺🇸 #V_美国_01"
-      - "🇯🇵 #V_日本_02"
-      - "🇸🇬 #V_新加坡_02"
-      - defaultName_80
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
-      - 🇹🇼 V_台湾_03
-      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
-      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
-      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
-      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
-      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
-      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
-      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
-      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
-      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
-      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
-      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
-      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
-      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
+      - 🇭🇰 Super港06_IEPL_倍率:2_5
+      - 🇹🇼 Super台03_IEPL_倍率:2_1
+      - 🇭🇰 Large港01-allmedia_MIEPL_倍率:1_8
+      - 🇭🇰 Super港05_IEPL_倍率:2_5
+      - 🇭🇰 Large港11-nf_IEPL_倍率:1_6
+      - 🇸🇬 Super新02_IEPL_倍率:2_124
+      - 🇭🇰 Large港21-nfo_MIEPL_倍率:1_6
+      - 🇭🇰 Large港16-allmedia_MIEPL_倍率:1_6
+      - 🇭🇰 Large港13-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港23-nfo_IEPL_倍率:1_6
+      - 🇭🇰 Large港24-nfo_IEPL_倍率:1_6
+      - 🇹🇼 Super台02_MIEPL_倍率:2_1
+      - 🇭🇰 Large港03-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新04-all_MIEPL_倍率:1_6
+      - 🇭🇰 Super港07_IEPL_倍率:2_3
+      - 🇭🇰 Large港06-nf_MIEPL_倍率:1_8
+      - 🇹🇼 Large台灣02-all_IEPL_倍率:1_8
+      - 🇸🇬 Large新12-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新02-all_IEPL_倍率:1_5
+      - 🇭🇰 Super港04_MIEPL_倍率:2_5
+      - 🇺🇸 Super美04_MIEPL_倍率:1_8
+      - 🇺🇸 Super美02_MIEPL_倍率:1_8
+      - 🇭🇰 Lil港12-nf_IEPL_倍率:3_114
+      - 🇸🇬 Large新08-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新05-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新07-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新06-all_IEPL_倍率:1_5
+      - 🇸🇬 Lil新05-netflix_IEPL_倍率:2_72
+      - 🇭🇰 Large港14-nf_MIEPL_倍率:1_6
+      - 🇭🇰 Large港08-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港04-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新09-all_IEPL_倍率:1_5
+      - 🇸🇬 Super新01_MIEPL_倍率:2_123
+      - 🇯🇵 Super日01_MIEPL_倍率:2_125
+      - 🇯🇵 Large日05-allmedia_IEPL_倍率:1_3
+      - 🇹🇼 Large台灣01-all_IEPL_倍率:1_8
+      - 🇭🇰 Super港03_MIEPL_倍率:2_5
+      - 🇭🇰 Large港18-nf_IEPL_倍率:1_8
+      - 🇯🇵 Large日03-allmedia_IEPL_倍率:1_5
+      - 🇯🇵 Large日02-allmedia_IEPL_倍率:1_5
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
+      - JP_@baipiao02
+      - JP_@baipiao02 2
+      - JP_@baipiao02 3
+      - "@baipiao02"
+      - "@baipiao02 2"
+      - HK_@baipiao02
+      - US_@baipiao02
       - CN_@baipiao02 4
+      - US_@baipiao02 2
       - CN_@baipiao02 5
       - CN_@baipiao02 6
       - CN_@baipiao02 7
@@ -105,6 +216,7 @@ proxy-groups:
       - CN_@baipiao02 10
       - CN_@baipiao02 11
       - CN_@baipiao02 12
+      - IN_@baipiao02
       - CN_@baipiao02 13
       - CN_@baipiao02 14
       - CN_@baipiao02 15
@@ -120,15 +232,71 @@ proxy-groups:
       - CN_@baipiao02 25
       - CN_@baipiao02 26
       - CN_@baipiao02 27
-      - JP_@baipiao02
-      - RU_@baipiao02
-      - US_@baipiao02
-      - US_@baipiao02 2
+      - CN_@baipiao02 28
+      - CN_@baipiao02 29
+      - CN_@baipiao02 30
+      - CN_@baipiao02 31
+      - CN_@baipiao02 32
+      - CN_@baipiao02 33
+      - CN_@baipiao02 34
+      - CN_@baipiao02 35
+      - CN_@baipiao02 36
+      - CN_@baipiao02 37
+      - CN_@baipiao02 38
+      - CN_@baipiao02 39
+      - CN_@baipiao02 40
+      - CN_@baipiao02 41
+      - CN_@baipiao02 42
+      - CN_@baipiao02 43
+      - CN_@baipiao02 44
+      - CN_@baipiao02 45
+      - CN_@baipiao02 46
+      - CN_@baipiao02 47
+      - CN_@baipiao02 48
+      - CN_@baipiao02 49
+      - CN_@baipiao02 50
+      - CN_@baipiao02 51
+      - CN_@baipiao02 52
+      - CN_@baipiao02 53
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - CN_@baipiao02 54
+      - CN_@baipiao02 55
+      - CN_@baipiao02 56
+      - CN_@baipiao02 57
+      - CN_@baipiao02 58
+      - CN_@baipiao02 59
+      - CN_@baipiao02 60
+      - CN_@baipiao02 61
+      - CN_@baipiao02 62
+      - CN_@baipiao02 63
+      - CN_@baipiao02 64
+      - CN_@baipiao02 65
+      - CN_@baipiao02 66
+      - JP_@baipiao02 4
+      - KR_@baipiao02
+      - HK_@baipiao02 5
+      - JP_@baipiao02 5
+      - KR_@baipiao02 2
+      - HK_@baipiao02 6
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
       - US_@baipiao02 6
+      - HK_@baipiao02 7
+      - CA_@baipiao02
+      - HK_@baipiao02 8
+      - "@baipiao02 3"
       - US_@baipiao02 7
+      - US_@baipiao02 8
+      - CA_@baipiao02 2
+      - US_@baipiao02 9
+      - CA_@baipiao02 3
+      - CA_@baipiao02 4
+      - JP_@baipiao02 6
+      - CA_@baipiao02 5
+      - US_@baipiao02 10
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: ♻️ 自动选择
@@ -137,31 +305,58 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 !V_香港_AZ01【推荐】_1
-      - 🇭🇰 !V_香港_HGC_2
-      - "🇺🇸 #V_美国_01"
-      - "🇯🇵 #V_日本_02"
-      - "🇸🇬 #V_新加坡_02"
-      - defaultName_80
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
-      - 🇹🇼 V_台湾_03
-      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
-      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
-      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
-      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
-      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
-      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
-      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
-      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
-      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
-      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
-      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
-      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
-      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
+      - 🇭🇰 Super港06_IEPL_倍率:2_5
+      - 🇹🇼 Super台03_IEPL_倍率:2_1
+      - 🇭🇰 Large港01-allmedia_MIEPL_倍率:1_8
+      - 🇭🇰 Super港05_IEPL_倍率:2_5
+      - 🇭🇰 Large港11-nf_IEPL_倍率:1_6
+      - 🇸🇬 Super新02_IEPL_倍率:2_124
+      - 🇭🇰 Large港21-nfo_MIEPL_倍率:1_6
+      - 🇭🇰 Large港16-allmedia_MIEPL_倍率:1_6
+      - 🇭🇰 Large港13-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港23-nfo_IEPL_倍率:1_6
+      - 🇭🇰 Large港24-nfo_IEPL_倍率:1_6
+      - 🇹🇼 Super台02_MIEPL_倍率:2_1
+      - 🇭🇰 Large港03-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新04-all_MIEPL_倍率:1_6
+      - 🇭🇰 Super港07_IEPL_倍率:2_3
+      - 🇭🇰 Large港06-nf_MIEPL_倍率:1_8
+      - 🇹🇼 Large台灣02-all_IEPL_倍率:1_8
+      - 🇸🇬 Large新12-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新02-all_IEPL_倍率:1_5
+      - 🇭🇰 Super港04_MIEPL_倍率:2_5
+      - 🇺🇸 Super美04_MIEPL_倍率:1_8
+      - 🇺🇸 Super美02_MIEPL_倍率:1_8
+      - 🇭🇰 Lil港12-nf_IEPL_倍率:3_114
+      - 🇸🇬 Large新08-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新05-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新07-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新06-all_IEPL_倍率:1_5
+      - 🇸🇬 Lil新05-netflix_IEPL_倍率:2_72
+      - 🇭🇰 Large港14-nf_MIEPL_倍率:1_6
+      - 🇭🇰 Large港08-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港04-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新09-all_IEPL_倍率:1_5
+      - 🇸🇬 Super新01_MIEPL_倍率:2_123
+      - 🇯🇵 Super日01_MIEPL_倍率:2_125
+      - 🇯🇵 Large日05-allmedia_IEPL_倍率:1_3
+      - 🇹🇼 Large台灣01-all_IEPL_倍率:1_8
+      - 🇭🇰 Super港03_MIEPL_倍率:2_5
+      - 🇭🇰 Large港18-nf_IEPL_倍率:1_8
+      - 🇯🇵 Large日03-allmedia_IEPL_倍率:1_5
+      - 🇯🇵 Large日02-allmedia_IEPL_倍率:1_5
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
+      - JP_@baipiao02
+      - JP_@baipiao02 2
+      - JP_@baipiao02 3
+      - "@baipiao02"
+      - "@baipiao02 2"
+      - HK_@baipiao02
+      - US_@baipiao02
       - CN_@baipiao02 4
+      - US_@baipiao02 2
       - CN_@baipiao02 5
       - CN_@baipiao02 6
       - CN_@baipiao02 7
@@ -170,6 +365,7 @@ proxy-groups:
       - CN_@baipiao02 10
       - CN_@baipiao02 11
       - CN_@baipiao02 12
+      - IN_@baipiao02
       - CN_@baipiao02 13
       - CN_@baipiao02 14
       - CN_@baipiao02 15
@@ -185,15 +381,71 @@ proxy-groups:
       - CN_@baipiao02 25
       - CN_@baipiao02 26
       - CN_@baipiao02 27
-      - JP_@baipiao02
-      - RU_@baipiao02
-      - US_@baipiao02
-      - US_@baipiao02 2
+      - CN_@baipiao02 28
+      - CN_@baipiao02 29
+      - CN_@baipiao02 30
+      - CN_@baipiao02 31
+      - CN_@baipiao02 32
+      - CN_@baipiao02 33
+      - CN_@baipiao02 34
+      - CN_@baipiao02 35
+      - CN_@baipiao02 36
+      - CN_@baipiao02 37
+      - CN_@baipiao02 38
+      - CN_@baipiao02 39
+      - CN_@baipiao02 40
+      - CN_@baipiao02 41
+      - CN_@baipiao02 42
+      - CN_@baipiao02 43
+      - CN_@baipiao02 44
+      - CN_@baipiao02 45
+      - CN_@baipiao02 46
+      - CN_@baipiao02 47
+      - CN_@baipiao02 48
+      - CN_@baipiao02 49
+      - CN_@baipiao02 50
+      - CN_@baipiao02 51
+      - CN_@baipiao02 52
+      - CN_@baipiao02 53
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - CN_@baipiao02 54
+      - CN_@baipiao02 55
+      - CN_@baipiao02 56
+      - CN_@baipiao02 57
+      - CN_@baipiao02 58
+      - CN_@baipiao02 59
+      - CN_@baipiao02 60
+      - CN_@baipiao02 61
+      - CN_@baipiao02 62
+      - CN_@baipiao02 63
+      - CN_@baipiao02 64
+      - CN_@baipiao02 65
+      - CN_@baipiao02 66
+      - JP_@baipiao02 4
+      - KR_@baipiao02
+      - HK_@baipiao02 5
+      - JP_@baipiao02 5
+      - KR_@baipiao02 2
+      - HK_@baipiao02 6
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
       - US_@baipiao02 6
+      - HK_@baipiao02 7
+      - CA_@baipiao02
+      - HK_@baipiao02 8
+      - "@baipiao02 3"
       - US_@baipiao02 7
+      - US_@baipiao02 8
+      - CA_@baipiao02 2
+      - US_@baipiao02 9
+      - CA_@baipiao02 3
+      - CA_@baipiao02 4
+      - JP_@baipiao02 6
+      - CA_@baipiao02 5
+      - US_@baipiao02 10
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: 🔯 故障转移
@@ -201,31 +453,58 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 !V_香港_AZ01【推荐】_1
-      - 🇭🇰 !V_香港_HGC_2
-      - "🇺🇸 #V_美国_01"
-      - "🇯🇵 #V_日本_02"
-      - "🇸🇬 #V_新加坡_02"
-      - defaultName_80
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
-      - 🇹🇼 V_台湾_03
-      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
-      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
-      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
-      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
-      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
-      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
-      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
-      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
-      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
-      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
-      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
-      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
-      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
+      - 🇭🇰 Super港06_IEPL_倍率:2_5
+      - 🇹🇼 Super台03_IEPL_倍率:2_1
+      - 🇭🇰 Large港01-allmedia_MIEPL_倍率:1_8
+      - 🇭🇰 Super港05_IEPL_倍率:2_5
+      - 🇭🇰 Large港11-nf_IEPL_倍率:1_6
+      - 🇸🇬 Super新02_IEPL_倍率:2_124
+      - 🇭🇰 Large港21-nfo_MIEPL_倍率:1_6
+      - 🇭🇰 Large港16-allmedia_MIEPL_倍率:1_6
+      - 🇭🇰 Large港13-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港23-nfo_IEPL_倍率:1_6
+      - 🇭🇰 Large港24-nfo_IEPL_倍率:1_6
+      - 🇹🇼 Super台02_MIEPL_倍率:2_1
+      - 🇭🇰 Large港03-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新04-all_MIEPL_倍率:1_6
+      - 🇭🇰 Super港07_IEPL_倍率:2_3
+      - 🇭🇰 Large港06-nf_MIEPL_倍率:1_8
+      - 🇹🇼 Large台灣02-all_IEPL_倍率:1_8
+      - 🇸🇬 Large新12-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新02-all_IEPL_倍率:1_5
+      - 🇭🇰 Super港04_MIEPL_倍率:2_5
+      - 🇺🇸 Super美04_MIEPL_倍率:1_8
+      - 🇺🇸 Super美02_MIEPL_倍率:1_8
+      - 🇭🇰 Lil港12-nf_IEPL_倍率:3_114
+      - 🇸🇬 Large新08-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新05-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新07-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新06-all_IEPL_倍率:1_5
+      - 🇸🇬 Lil新05-netflix_IEPL_倍率:2_72
+      - 🇭🇰 Large港14-nf_MIEPL_倍率:1_6
+      - 🇭🇰 Large港08-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港04-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新09-all_IEPL_倍率:1_5
+      - 🇸🇬 Super新01_MIEPL_倍率:2_123
+      - 🇯🇵 Super日01_MIEPL_倍率:2_125
+      - 🇯🇵 Large日05-allmedia_IEPL_倍率:1_3
+      - 🇹🇼 Large台灣01-all_IEPL_倍率:1_8
+      - 🇭🇰 Super港03_MIEPL_倍率:2_5
+      - 🇭🇰 Large港18-nf_IEPL_倍率:1_8
+      - 🇯🇵 Large日03-allmedia_IEPL_倍率:1_5
+      - 🇯🇵 Large日02-allmedia_IEPL_倍率:1_5
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
+      - JP_@baipiao02
+      - JP_@baipiao02 2
+      - JP_@baipiao02 3
+      - "@baipiao02"
+      - "@baipiao02 2"
+      - HK_@baipiao02
+      - US_@baipiao02
       - CN_@baipiao02 4
+      - US_@baipiao02 2
       - CN_@baipiao02 5
       - CN_@baipiao02 6
       - CN_@baipiao02 7
@@ -234,6 +513,7 @@ proxy-groups:
       - CN_@baipiao02 10
       - CN_@baipiao02 11
       - CN_@baipiao02 12
+      - IN_@baipiao02
       - CN_@baipiao02 13
       - CN_@baipiao02 14
       - CN_@baipiao02 15
@@ -249,15 +529,71 @@ proxy-groups:
       - CN_@baipiao02 25
       - CN_@baipiao02 26
       - CN_@baipiao02 27
-      - JP_@baipiao02
-      - RU_@baipiao02
-      - US_@baipiao02
-      - US_@baipiao02 2
+      - CN_@baipiao02 28
+      - CN_@baipiao02 29
+      - CN_@baipiao02 30
+      - CN_@baipiao02 31
+      - CN_@baipiao02 32
+      - CN_@baipiao02 33
+      - CN_@baipiao02 34
+      - CN_@baipiao02 35
+      - CN_@baipiao02 36
+      - CN_@baipiao02 37
+      - CN_@baipiao02 38
+      - CN_@baipiao02 39
+      - CN_@baipiao02 40
+      - CN_@baipiao02 41
+      - CN_@baipiao02 42
+      - CN_@baipiao02 43
+      - CN_@baipiao02 44
+      - CN_@baipiao02 45
+      - CN_@baipiao02 46
+      - CN_@baipiao02 47
+      - CN_@baipiao02 48
+      - CN_@baipiao02 49
+      - CN_@baipiao02 50
+      - CN_@baipiao02 51
+      - CN_@baipiao02 52
+      - CN_@baipiao02 53
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - CN_@baipiao02 54
+      - CN_@baipiao02 55
+      - CN_@baipiao02 56
+      - CN_@baipiao02 57
+      - CN_@baipiao02 58
+      - CN_@baipiao02 59
+      - CN_@baipiao02 60
+      - CN_@baipiao02 61
+      - CN_@baipiao02 62
+      - CN_@baipiao02 63
+      - CN_@baipiao02 64
+      - CN_@baipiao02 65
+      - CN_@baipiao02 66
+      - JP_@baipiao02 4
+      - KR_@baipiao02
+      - HK_@baipiao02 5
+      - JP_@baipiao02 5
+      - KR_@baipiao02 2
+      - HK_@baipiao02 6
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
       - US_@baipiao02 6
+      - HK_@baipiao02 7
+      - CA_@baipiao02
+      - HK_@baipiao02 8
+      - "@baipiao02 3"
       - US_@baipiao02 7
+      - US_@baipiao02 8
+      - CA_@baipiao02 2
+      - US_@baipiao02 9
+      - CA_@baipiao02 3
+      - CA_@baipiao02 4
+      - JP_@baipiao02 6
+      - CA_@baipiao02 5
+      - US_@baipiao02 10
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: 🔮 负载均衡
@@ -266,31 +602,58 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 !V_香港_AZ01【推荐】_1
-      - 🇭🇰 !V_香港_HGC_2
-      - "🇺🇸 #V_美国_01"
-      - "🇯🇵 #V_日本_02"
-      - "🇸🇬 #V_新加坡_02"
-      - defaultName_80
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
-      - 🇹🇼 V_台湾_03
-      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
-      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
-      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
-      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
-      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
-      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
-      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
-      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
-      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
-      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
-      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
-      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
-      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
+      - 🇭🇰 Super港06_IEPL_倍率:2_5
+      - 🇹🇼 Super台03_IEPL_倍率:2_1
+      - 🇭🇰 Large港01-allmedia_MIEPL_倍率:1_8
+      - 🇭🇰 Super港05_IEPL_倍率:2_5
+      - 🇭🇰 Large港11-nf_IEPL_倍率:1_6
+      - 🇸🇬 Super新02_IEPL_倍率:2_124
+      - 🇭🇰 Large港21-nfo_MIEPL_倍率:1_6
+      - 🇭🇰 Large港16-allmedia_MIEPL_倍率:1_6
+      - 🇭🇰 Large港13-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港23-nfo_IEPL_倍率:1_6
+      - 🇭🇰 Large港24-nfo_IEPL_倍率:1_6
+      - 🇹🇼 Super台02_MIEPL_倍率:2_1
+      - 🇭🇰 Large港03-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新04-all_MIEPL_倍率:1_6
+      - 🇭🇰 Super港07_IEPL_倍率:2_3
+      - 🇭🇰 Large港06-nf_MIEPL_倍率:1_8
+      - 🇹🇼 Large台灣02-all_IEPL_倍率:1_8
+      - 🇸🇬 Large新12-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新02-all_IEPL_倍率:1_5
+      - 🇭🇰 Super港04_MIEPL_倍率:2_5
+      - 🇺🇸 Super美04_MIEPL_倍率:1_8
+      - 🇺🇸 Super美02_MIEPL_倍率:1_8
+      - 🇭🇰 Lil港12-nf_IEPL_倍率:3_114
+      - 🇸🇬 Large新08-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新05-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新07-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新06-all_IEPL_倍率:1_5
+      - 🇸🇬 Lil新05-netflix_IEPL_倍率:2_72
+      - 🇭🇰 Large港14-nf_MIEPL_倍率:1_6
+      - 🇭🇰 Large港08-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港04-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新09-all_IEPL_倍率:1_5
+      - 🇸🇬 Super新01_MIEPL_倍率:2_123
+      - 🇯🇵 Super日01_MIEPL_倍率:2_125
+      - 🇯🇵 Large日05-allmedia_IEPL_倍率:1_3
+      - 🇹🇼 Large台灣01-all_IEPL_倍率:1_8
+      - 🇭🇰 Super港03_MIEPL_倍率:2_5
+      - 🇭🇰 Large港18-nf_IEPL_倍率:1_8
+      - 🇯🇵 Large日03-allmedia_IEPL_倍率:1_5
+      - 🇯🇵 Large日02-allmedia_IEPL_倍率:1_5
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
+      - JP_@baipiao02
+      - JP_@baipiao02 2
+      - JP_@baipiao02 3
+      - "@baipiao02"
+      - "@baipiao02 2"
+      - HK_@baipiao02
+      - US_@baipiao02
       - CN_@baipiao02 4
+      - US_@baipiao02 2
       - CN_@baipiao02 5
       - CN_@baipiao02 6
       - CN_@baipiao02 7
@@ -299,6 +662,7 @@ proxy-groups:
       - CN_@baipiao02 10
       - CN_@baipiao02 11
       - CN_@baipiao02 12
+      - IN_@baipiao02
       - CN_@baipiao02 13
       - CN_@baipiao02 14
       - CN_@baipiao02 15
@@ -314,15 +678,71 @@ proxy-groups:
       - CN_@baipiao02 25
       - CN_@baipiao02 26
       - CN_@baipiao02 27
-      - JP_@baipiao02
-      - RU_@baipiao02
-      - US_@baipiao02
-      - US_@baipiao02 2
+      - CN_@baipiao02 28
+      - CN_@baipiao02 29
+      - CN_@baipiao02 30
+      - CN_@baipiao02 31
+      - CN_@baipiao02 32
+      - CN_@baipiao02 33
+      - CN_@baipiao02 34
+      - CN_@baipiao02 35
+      - CN_@baipiao02 36
+      - CN_@baipiao02 37
+      - CN_@baipiao02 38
+      - CN_@baipiao02 39
+      - CN_@baipiao02 40
+      - CN_@baipiao02 41
+      - CN_@baipiao02 42
+      - CN_@baipiao02 43
+      - CN_@baipiao02 44
+      - CN_@baipiao02 45
+      - CN_@baipiao02 46
+      - CN_@baipiao02 47
+      - CN_@baipiao02 48
+      - CN_@baipiao02 49
+      - CN_@baipiao02 50
+      - CN_@baipiao02 51
+      - CN_@baipiao02 52
+      - CN_@baipiao02 53
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - CN_@baipiao02 54
+      - CN_@baipiao02 55
+      - CN_@baipiao02 56
+      - CN_@baipiao02 57
+      - CN_@baipiao02 58
+      - CN_@baipiao02 59
+      - CN_@baipiao02 60
+      - CN_@baipiao02 61
+      - CN_@baipiao02 62
+      - CN_@baipiao02 63
+      - CN_@baipiao02 64
+      - CN_@baipiao02 65
+      - CN_@baipiao02 66
+      - JP_@baipiao02 4
+      - KR_@baipiao02
+      - HK_@baipiao02 5
+      - JP_@baipiao02 5
+      - KR_@baipiao02 2
+      - HK_@baipiao02 6
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
       - US_@baipiao02 6
+      - HK_@baipiao02 7
+      - CA_@baipiao02
+      - HK_@baipiao02 8
+      - "@baipiao02 3"
       - US_@baipiao02 7
+      - US_@baipiao02 8
+      - CA_@baipiao02 2
+      - US_@baipiao02 9
+      - CA_@baipiao02 3
+      - CA_@baipiao02 4
+      - JP_@baipiao02 6
+      - CA_@baipiao02 5
+      - US_@baipiao02 10
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
   - name: 🎯 全球直连
@@ -344,31 +764,58 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇭🇰 !V_香港_AZ01【推荐】_1
-      - 🇭🇰 !V_香港_HGC_2
-      - "🇺🇸 #V_美国_01"
-      - "🇯🇵 #V_日本_02"
-      - "🇸🇬 #V_新加坡_02"
-      - defaultName_80
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1122
-      - 🇹🇼 V_台湾_03
-      - 🇺🇸 0.67|Super 美国02   MIEPL  倍率18
-      - 🇺🇸 2.23|Super 美国04   MIEPL  倍率18
-      - 🇺🇸 2.43|Super 美国03   MIEPL 倍率2
-      - 🇭🇰 3.89|Super 香港05   IEPL  倍率25
-      - 🇹🇼 4.17|Super 台湾01   MIEPL  倍率21
-      - 🇹🇼 4.54|Super 台湾03   IEPL  倍率21
-      - 🇹🇼 4.86|Super 台湾04   IEPL  倍率21
-      - 🇸🇬 4.96|Super 新加坡01   MIEPL  倍率2
-      - 🇯🇵 5.32|Super 日本01   MIEPL  倍率2
-      - 🇭🇰 5.37|Super 香港01   MIEPL  倍率28
-      - 🇭🇰 5.61|Super 香港06   IEPL  倍率25
-      - 🇭🇰 5.65|Super 香港07   IEPL  倍率23
-      - 🇭🇰 6.03|Super 香港02   MIEPL  倍率25
+      - 🇭🇰 Super港06_IEPL_倍率:2_5
+      - 🇹🇼 Super台03_IEPL_倍率:2_1
+      - 🇭🇰 Large港01-allmedia_MIEPL_倍率:1_8
+      - 🇭🇰 Super港05_IEPL_倍率:2_5
+      - 🇭🇰 Large港11-nf_IEPL_倍率:1_6
+      - 🇸🇬 Super新02_IEPL_倍率:2_124
+      - 🇭🇰 Large港21-nfo_MIEPL_倍率:1_6
+      - 🇭🇰 Large港16-allmedia_MIEPL_倍率:1_6
+      - 🇭🇰 Large港13-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港23-nfo_IEPL_倍率:1_6
+      - 🇭🇰 Large港24-nfo_IEPL_倍率:1_6
+      - 🇹🇼 Super台02_MIEPL_倍率:2_1
+      - 🇭🇰 Large港03-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新04-all_MIEPL_倍率:1_6
+      - 🇭🇰 Super港07_IEPL_倍率:2_3
+      - 🇭🇰 Large港06-nf_MIEPL_倍率:1_8
+      - 🇹🇼 Large台灣02-all_IEPL_倍率:1_8
+      - 🇸🇬 Large新12-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新02-all_IEPL_倍率:1_5
+      - 🇭🇰 Super港04_MIEPL_倍率:2_5
+      - 🇺🇸 Super美04_MIEPL_倍率:1_8
+      - 🇺🇸 Super美02_MIEPL_倍率:1_8
+      - 🇭🇰 Lil港12-nf_IEPL_倍率:3_114
+      - 🇸🇬 Large新08-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新05-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新07-all_IEPL_倍率:1_5
+      - 🇸🇬 Large新06-all_IEPL_倍率:1_5
+      - 🇸🇬 Lil新05-netflix_IEPL_倍率:2_72
+      - 🇭🇰 Large港14-nf_MIEPL_倍率:1_6
+      - 🇭🇰 Large港08-all_IEPL_倍率:1_6
+      - 🇭🇰 Large港04-allmedia_MIEPL_倍率:1_8
+      - 🇸🇬 Large新09-all_IEPL_倍率:1_5
+      - 🇸🇬 Super新01_MIEPL_倍率:2_123
+      - 🇯🇵 Super日01_MIEPL_倍率:2_125
+      - 🇯🇵 Large日05-allmedia_IEPL_倍率:1_3
+      - 🇹🇼 Large台灣01-all_IEPL_倍率:1_8
+      - 🇭🇰 Super港03_MIEPL_倍率:2_5
+      - 🇭🇰 Large港18-nf_IEPL_倍率:1_8
+      - 🇯🇵 Large日03-allmedia_IEPL_倍率:1_5
+      - 🇯🇵 Large日02-allmedia_IEPL_倍率:1_5
       - CN_@baipiao02
       - CN_@baipiao02 2
       - CN_@baipiao02 3
+      - JP_@baipiao02
+      - JP_@baipiao02 2
+      - JP_@baipiao02 3
+      - "@baipiao02"
+      - "@baipiao02 2"
+      - HK_@baipiao02
+      - US_@baipiao02
       - CN_@baipiao02 4
+      - US_@baipiao02 2
       - CN_@baipiao02 5
       - CN_@baipiao02 6
       - CN_@baipiao02 7
@@ -377,6 +824,7 @@ proxy-groups:
       - CN_@baipiao02 10
       - CN_@baipiao02 11
       - CN_@baipiao02 12
+      - IN_@baipiao02
       - CN_@baipiao02 13
       - CN_@baipiao02 14
       - CN_@baipiao02 15
@@ -392,15 +840,71 @@ proxy-groups:
       - CN_@baipiao02 25
       - CN_@baipiao02 26
       - CN_@baipiao02 27
-      - JP_@baipiao02
-      - RU_@baipiao02
-      - US_@baipiao02
-      - US_@baipiao02 2
+      - CN_@baipiao02 28
+      - CN_@baipiao02 29
+      - CN_@baipiao02 30
+      - CN_@baipiao02 31
+      - CN_@baipiao02 32
+      - CN_@baipiao02 33
+      - CN_@baipiao02 34
+      - CN_@baipiao02 35
+      - CN_@baipiao02 36
+      - CN_@baipiao02 37
+      - CN_@baipiao02 38
+      - CN_@baipiao02 39
+      - CN_@baipiao02 40
+      - CN_@baipiao02 41
+      - CN_@baipiao02 42
+      - CN_@baipiao02 43
+      - CN_@baipiao02 44
+      - CN_@baipiao02 45
+      - CN_@baipiao02 46
+      - CN_@baipiao02 47
+      - CN_@baipiao02 48
+      - CN_@baipiao02 49
+      - CN_@baipiao02 50
+      - CN_@baipiao02 51
+      - CN_@baipiao02 52
+      - CN_@baipiao02 53
+      - HK_@baipiao02 2
+      - HK_@baipiao02 3
+      - HK_@baipiao02 4
+      - CN_@baipiao02 54
+      - CN_@baipiao02 55
+      - CN_@baipiao02 56
+      - CN_@baipiao02 57
+      - CN_@baipiao02 58
+      - CN_@baipiao02 59
+      - CN_@baipiao02 60
+      - CN_@baipiao02 61
+      - CN_@baipiao02 62
+      - CN_@baipiao02 63
+      - CN_@baipiao02 64
+      - CN_@baipiao02 65
+      - CN_@baipiao02 66
+      - JP_@baipiao02 4
+      - KR_@baipiao02
+      - HK_@baipiao02 5
+      - JP_@baipiao02 5
+      - KR_@baipiao02 2
+      - HK_@baipiao02 6
       - US_@baipiao02 3
       - US_@baipiao02 4
       - US_@baipiao02 5
       - US_@baipiao02 6
+      - HK_@baipiao02 7
+      - CA_@baipiao02
+      - HK_@baipiao02 8
+      - "@baipiao02 3"
       - US_@baipiao02 7
+      - US_@baipiao02 8
+      - CA_@baipiao02 2
+      - US_@baipiao02 9
+      - CA_@baipiao02 3
+      - CA_@baipiao02 4
+      - JP_@baipiao02 6
+      - CA_@baipiao02 5
+      - US_@baipiao02 10
       - 🇭🇰 香港(中国)+🚀[极速稳定]
       - 🇭🇰 香港(中国)🚀[极速稳定]
 rules:
